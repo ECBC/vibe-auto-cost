@@ -1,0 +1,76 @@
+{
+  "ts": "2026-07-10T11:17:36.055Z",
+  "checks": {
+    "cta": {
+      "found": true,
+      "text": "Buscar",
+      "rect": {
+        "x": 116,
+        "y": 518,
+        "w": 481,
+        "h": 48
+      },
+      "bg": "rgb(0, 104, 215)",
+      "bgHex": "#0068D7",
+      "color": "rgb(255, 255, 255)",
+      "colorHex": "#FFFFFF",
+      "fontFamily": "Montserrat, Arial, sans-serif",
+      "fontSize": "13px",
+      "fontWeight": "600",
+      "borderRadius": "1.86px",
+      "padding": "0px 24px",
+      "height": "48px",
+      "opacity": "1"
+    },
+    "ctaHeightOK": true,
+    "header": {
+      "found": true,
+      "rect": {
+        "x": 0,
+        "y": 68,
+        "w": 1440,
+        "h": 68
+      },
+      "hasLogo": true
+    },
+    "banner": {
+      "found": true,
+      "w": 735,
+      "h": 387,
+      "x": 631,
+      "dataTimeout": "3"
+    },
+    "bannerWidthOK": true,
+    "dots": {
+      "dotCount": 9,
+      "slideCount": 9
+    },
+    "dotsOK": true,
+    "autoplay": {
+      "before": 2,
+      "after": 3,
+      "advanced": true
+    },
+    "navs": {
+      "vehicleTypeBar": true,
+      "vtTriggerText": "Vehículo de turismo",
+      "categorySubnav": true,
+      "categoryItems": [
+        "Vehículo de turismo",
+        "Neumáticos",
+        "Llantas",
+        "Herramientas",
+        "Limpieza y Cuidado",
+        "Accesorios para coches",
+        "Aceite de motor",
+        "Filtros",
+        "Frenos"
+      ]
+    },
+    "navsOK": true,
+    "itemsOrderOK": true
+  },
+  "consoleErrs": [],
+  "autodocReqs": [],
+  "requestCount": 37
+}

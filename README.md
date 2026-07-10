@@ -54,3 +54,10 @@ The agent operates under a heavily optimized System Prompt that defines strict o
 * **`/src`:** Contains the full operational application source code modified by the agent.
 * **`/screenshots`:** Visual walkthroughs demonstrating the initial cloning phase, prompt safety testing logs, and the finalized dynamic vehicle cost calculator interface.
 * **`/logs`:** Full terminal trace outputs generated during the `adal --mode engineer` execution loop.
+
+
+the first command will be:
+
+docker exec -it vibe_agent_container adal --mode engineer
+
+prompt: "Clone the main above-the-fold header section of https://www.autodoc.es/, specifically isolating the complete interactive vehicle search selector component (the multi-tab interface for selecting Passenger Cars, Trucks, Motorcycles, etc., by make, model, and engine). Save the full component inside './autodoc-clone'. It must be functionally and visually identical down to the pixel level, replicating all layout structures, dynamic dropdown behaviors, fonts, exact color tokens, hover states, animations, and any embedded media or layout effects. You have two docs to refer to inside your workspace: 1. ./clone-web/clone_guide_v2.md (operational guide + appendices) which you must follow implicitly, and 2. ./clone-web/clone_landing_page_101.md (deep reference) to consult if stuck. Use MiniMax M3 Browser Use for both evaluator and builder."
