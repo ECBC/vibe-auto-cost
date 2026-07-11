@@ -1,0 +1,12 @@
+{
+  "conversation_id": "de55ca28-aff9-4b27-a9e3-575e26a00700",
+  "created_at": "2026-07-10T09:41:25.299077",
+  "last_accessed": "2026-07-10T09:41:44.079260",
+  "last_user_message": "Clone the main above-the-fold header section of https://www.autodoc.es/, specifically isolating the complete interactive vehicle search selector component (the multi-tab interface for selecting Passenger Cars, Trucks, Motorcycles, etc., by make, model, and engine). Save the full component inside './autodoc-clone'. It must be functionally and visually identical down to the pixel level, replicating all layout structures, dynamic dropdown behaviors, fonts, exact color tokens, hover states, animations, and any embedded media or layout effects. You have two docs to refer to inside your workspace: 1. ./clone-web/clone_guide_v2.md (operational guide + appendices) which you must follow implicitly, and 2. ./clone-web/clone_landing_page_101.md (deep reference) to consult if stuck. Use MiniMax M3 Browser Use for both evaluator and builder.",
+  "total_messages": 3,
+  "total_turns": 1,
+  "project_path": "/app",
+  "user_id": "e92b4e38-ffaa-4823-a9cc-595a3094945e",
+  "platform": "Linux",
+  "version": "1.4.5"
+}

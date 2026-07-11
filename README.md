@@ -60,4 +60,17 @@ the first command will be:
 
 docker exec -it vibe_agent_container adal --mode engineer
 
-prompt: "Clone the main above-the-fold header section of https://www.autodoc.es/, specifically isolating the complete interactive vehicle search selector component (the multi-tab interface for selecting Passenger Cars, Trucks, Motorcycles, etc., by make, model, and engine). Save the full component inside './autodoc-clone'. It must be functionally and visually identical down to the pixel level, replicating all layout structures, dynamic dropdown behaviors, fonts, exact color tokens, hover states, animations, and any embedded media or layout effects. You have two docs to refer to inside your workspace: 1. ./clone-web/clone_guide_v2.md (operational guide + appendices) which you must follow implicitly, and 2. ./clone-web/clone_landing_page_101.md (deep reference) to consult if stuck. Use MiniMax M3 Browser Use for both evaluator and builder."
+### first prompt: 
+
+"Clone the main above-the-fold header section of https://www.autodoc.es/, specifically isolating the complete interactive vehicle search selector component (the multi-tab interface for selecting Passenger Cars, Trucks, Motorcycles, etc., by make, model, and engine). Save the full component inside './autodoc-clone'. It must be functionally and visually identical down to the pixel level, replicating all layout structures, dynamic dropdown behaviors, fonts, exact color tokens, hover states, animations, and any embedded media or layout effects. You have two docs to refer to inside your workspace: 1. ./clone-web/clone_guide_v2.md (operational guide + appendices) which you must follow implicitly, and 2. ./clone-web/clone_landing_page_101.md (deep reference) to consult if stuck. Use MiniMax M3 Browser Use for both evaluator and builder."
+
+### second prompt: 
+
+"Execute Phase 2 implementation, building the final web application completely inside the dedicated directory './auto-evaluation/app/'. Use the cloned interface in './autodoc-clone' as your base layout layout and asset reference. You must strictly read, ingest, and adhere to the architectural rules defined in './auto-evaluation/logic_guide_v1.md' for your backend engineering, and './auto-evaluation/visual_architecture_101.md' for all UI injection and chart styles.
+
+Core Execution Plan:
+1. Data Pipeline: Extract the data vault archives ('./auto-evaluation/data/archive.zip' and './auto-evaluation/data/car+evaluation.zip') and run the Heuristic Alignment Matrix to merge the datasets.
+2. Backend Logic: Build the deterministic 5-year cost engine with strict Pydantic JSON schema validation, ensuring all calculations are wired to serve the frontend app inside './auto-evaluation/app/'.
+3. Frontend UI Deployment: Generate and place the complete dashboard interface inside './auto-evaluation/app/'. Ensure it dynamically injects below the Autodoc vehicle selector and strictly utilizes the official Autodoc CSS design tokens (colors, borders, and smooth transitions).
+4. Visualization: Integrate Chart.js or ApexCharts via CDN to render the cumulative 5-year operational cost splits and the geometric Reliability Radar Chart.
+5. Verification: Deploy the adversary evaluation worker to run the visual and functional validation scripts against the application assembly inside './auto-evaluation/app/'. Fix any layout shifts, unstyled backgrounds, or path errors before finishing."

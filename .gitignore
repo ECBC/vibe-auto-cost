@@ -144,3 +144,36 @@ vite.config.ts.timestamp-*
 
 # Docker
 .dockerignore
+node_modules/
+.env
+*.log
+
+
+# añadido
+
+# Python artifacts (Caché y entornos virtuales)
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+ENV/
+
+# Data Vault & Datasets (Evita subir gigas de datos crudos)
+*.zip
+*.tar.gz
+auto-evaluation/data/extracted_european/
+auto-evaluation/data/extracted_uci/
+
+# Si tus CSVs extraídos se guardan sueltos, bloquéalos también:
+*.csv
+
+# OS metadata (Ruido de sistema operativo)
+.DS_Store
+Thumbs.db
+
+# IDEs y Editores de código (Opcional, para limpiar tu entorno)
+.vscode/
+.idea/
+*.suo

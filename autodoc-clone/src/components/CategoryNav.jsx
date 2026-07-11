@@ -23,8 +23,8 @@ const SUBNAV = [
 export default function CategoryNav() {
   return (
     <nav className="bg-header-bg text-header-text border-t border-white/10" data-category-subnav="" aria-label="Categorías de productos">
-      <div className="max-w-[1280px] mx-auto px-5">
-        <ul className="header-nav flex items-stretch justify-between gap-1 py-1.5">
+      <div className="max-w-[1280px] mx-auto px-5 overflow-x-auto scrollbar-hide">
+        <ul className="header-nav flex items-stretch justify-between gap-1 py-1.5 whitespace-nowrap">
           {SUBNAV.map((item) => {
             const Icon = ICON_FOR[item.iconKey] || IconMisc;
             return (

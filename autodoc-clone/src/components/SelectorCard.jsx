@@ -111,11 +111,10 @@ export default function SelectorCard() {
         </div>
       </div>
 
-      {/* Bottom Buscar (ALWAYS bright blue; hover -> lighter blue) */}
+      {/* Bottom Buscar (ALWAYS bright blue; hover -> lighter blue) — never disabled so hover fires */}
       <button
         type="button"
-        disabled={!canSearch}
-        onClick={() => canSearch && alert(`Buscar: ${selection.make} / ${selection.model} / ${selection.engine}`)}
+        onClick={() => { if (!canSearch) return; alert(`Buscar: ${selection.make} / ${selection.model} / ${selection.engine}`); }}
         onMouseEnter={() => setCtaHover(true)}
         onMouseLeave={() => setCtaHover(false)}
         className="w-full text-white font-semibold text-[13px] tracking-wide transition-colors"
@@ -125,7 +124,6 @@ export default function SelectorCard() {
           borderRadius: '1.86px',
           padding: '0 24px',
           height: 48,
-          opacity: 1, // NEVER visually disabled at first paint
           cursor: canSearch ? 'pointer' : 'not-allowed',
         }}
       >

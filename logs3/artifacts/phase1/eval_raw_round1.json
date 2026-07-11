@@ -1,0 +1,3067 @@
+{
+  "original": {
+    "1440x900": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "screenshot": "/app/clone-web/team-log/screens/eval_orig_1440x900.png",
+      "data": {
+        "layoutRects": {
+          "header": {
+            "x": 0,
+            "y": 0,
+            "w": 1430,
+            "h": 0
+          },
+          "subnav": {
+            "x": 0,
+            "y": 0,
+            "w": 1430,
+            "h": 7006
+          },
+          "card": null,
+          "banner": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "tag": "DIV",
+            "cls": "app-left-banner app-left-banner--under-overlay"
+          },
+          "cta": {
+            "x": 104,
+            "y": 395,
+            "w": 472,
+            "h": 48,
+            "text": "Buscar"
+          },
+          "viewport": {
+            "w": 1440,
+            "h": 900
+          },
+          "docH": 7007
+        },
+        "subnavList": {
+          "count": 9,
+          "items": [
+            {
+              "text": "Vehículo de turismo",
+              "active": false
+            },
+            {
+              "text": "Neumáticos",
+              "active": false
+            },
+            {
+              "text": "Llantas",
+              "active": false
+            },
+            {
+              "text": "Herramientas",
+              "active": false
+            },
+            {
+              "text": "Limpieza y Cuidado",
+              "active": false
+            },
+            {
+              "text": "Accesorios para coches",
+              "active": false
+            },
+            {
+              "text": "Aceite de motor",
+              "active": false
+            },
+            {
+              "text": "Filtros",
+              "active": false
+            },
+            {
+              "text": "Frenos",
+              "active": false
+            }
+          ]
+        },
+        "tabsClickable": {
+          "count": 1,
+          "first": {
+            "tag": "A",
+            "cursor": "pointer",
+            "pointerEvents": "auto",
+            "href": "https://www.autodoc.es/llantas"
+          }
+        },
+        "cascade": {},
+        "ctaStyles": {
+          "text": "Buscar",
+          "rect": {
+            "x": 104,
+            "y": 395,
+            "w": 472,
+            "h": 48
+          },
+          "bg": "rgb(0, 104, 215)",
+          "bgHex": "#0068D7",
+          "color": "rgb(255, 255, 255)",
+          "colorHex": "#FFFFFF",
+          "fontFamily": "Montserrat, Arial, sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "600",
+          "borderRadius": "1.859px",
+          "padding": "0px 24px",
+          "boxShadow": "none",
+          "opacity": "1"
+        },
+        "colorTokens": {
+          "bodyBg": "#000000",
+          "bodyColor": "#132530",
+          "headerBg": "#041A24",
+          "headerColor": "#132530",
+          "subnavBg": null,
+          "subnavText": null,
+          "cardBg": "#000000",
+          "cardBorder": "0px none rgb(19, 37, 48)",
+          "cardRadius": "0px",
+          "ctaBg": "#0068D7",
+          "ctaText": "#FFFFFF",
+          "badgeBg": null,
+          "badgeText": null,
+          "orangeBg": null
+        },
+        "dropdownPanel": {
+          "exists": false
+        },
+        "headerAssets": {
+          "logoPresent": true,
+          "logoSrc": null,
+          "logoRect": {
+            "x": 80,
+            "y": 17,
+            "w": 203,
+            "h": 29
+          },
+          "utilityLinksCount": 2,
+          "utilitySample": [
+            "Vehículo de turismo",
+            "Llantas"
+          ]
+        },
+        "carousel": {
+          "exists": true,
+          "slideCount": 17,
+          "dotCount": 0,
+          "activeIdx": -1,
+          "autoplay": "3",
+          "autoplaySpeed": null,
+          "rect": {
+            "x": 615,
+            "y": 153,
+            "w": 734,
+            "h": 387
+          }
+        },
+        "hoverBase": {
+          "tab": null,
+          "cta": {
+            "color": "rgb(255, 255, 255)",
+            "bg": "rgb(0, 104, 215)",
+            "boxShadow": "none",
+            "borderColor": "rgb(255, 255, 255)"
+          }
+        },
+        "orangeAccents": {
+          "count": 5,
+          "samples": [
+            {
+              "tag": "DIV",
+              "cls": "car-selector__error-text",
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(237, 92, 14)"
+            },
+            {
+              "tag": "DIV",
+              "cls": "car-selector__error-text",
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(237, 92, 14)"
+            },
+            {
+              "tag": "DIV",
+              "cls": "car-selector__error-text",
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(237, 92, 14)"
+            },
+            {
+              "tag": "DIV",
+              "cls": "input-error",
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(237, 92, 14)"
+            }
+          ]
+        },
+        "consoleErrors": {
+          "count": 0,
+          "errors": []
+        },
+        "belowFold": {
+          "viewportH": 900,
+          "rootBottom": 900,
+          "rootHeight": 900,
+          "docHeight": 7007,
+          "bleedCount": 1862,
+          "bleedSample": [
+            {
+              "tag": "DIV",
+              "cls": "",
+              "top": 0,
+              "bottom": 7006,
+              "bleed": 6106.625
+            },
+            {
+              "tag": "MAIN",
+              "cls": "index-page",
+              "top": 153,
+              "bottom": 5363,
+              "bleed": 4463.203125
+            },
+            {
+              "tag": "SECTION",
+              "cls": "section wrap",
+              "top": 616,
+              "bottom": 1247,
+              "bleed": 347.3125
+            },
+            {
+              "tag": "DIV",
+              "cls": "section__wrap",
+              "top": 664,
+              "bottom": 1247,
+              "bleed": 347.3125
+            },
+            {
+              "tag": "DIV",
+              "cls": "row row-gap row-cols-2 row-col",
+              "top": 664,
+              "bottom": 1191,
+              "bleed": 291.3125
+            }
+          ],
+          "suspicious": {
+            "losSuperventas": true,
+            "todasLasCategorias": false,
+            "todoParaSuCoche": true
+          }
+        },
+        "hoverPost": {
+          "tab": null,
+          "cta": {
+            "color": "rgb(255, 255, 255)",
+            "bg": "rgb(0, 116, 241)",
+            "boxShadow": "none",
+            "borderColor": "rgb(255, 255, 255)"
+          }
+        },
+        "cascadeInteraction": {
+          "makeOpened": {
+            "error": "make button not found"
+          },
+          "makePanel": {
+            "exists": false
+          },
+          "persistedTrigger": "Buscar",
+          "modelAfter": {
+            "found": false
+          },
+          "modelPanel": {
+            "exists": false
+          }
+        },
+        "_net": [
+          "https://www.autodoc.es/",
+          "https://www.autodoc.es/assets/54eb94/css/vendor.css?id=92d80133937178644d79df354867cb52",
+          "https://www.autodoc.es/assets/54eb94/css/app.css?id=216a10da9613f968c431b6389b415c5e",
+          "https://scdn.autodoc.de/static/logo/logo-light.svg",
+          "https://www.autodoc.es/lazyload.php?width=150&height=150",
+          "https://www.autodoc.es/lazyload.php?width=48&height=48",
+          "https://www.autodoc.es/lazyload.php?width=96&height=48",
+          "https://www.autodoc.es/lazyload.php?width=32&height=32",
+          "https://www.autodoc.es/lazyload.php?width=88&height=88",
+          "https://www.autodoc.es/lazyload.php?width=88&height=38",
+          "https://www.autodoc.es/lazyload.php?width=120&height=72",
+          "https://cdn.autodoc.de/uploads/info_section/article/4006/1778150779_27_92a1bb670653230fd95d2899f8559ec5.png",
+          "https://cdn.autodoc.de/uploads/info_section/article/4006/1778150843_1422_9d804cfb06451d65952dc4568e357dc2.png",
+          "https://cdn.autodoc.de/uploads/info_section/article/4006/1778150793_1775_77c0e00af20e85df0c246b063d8e8d5c.png",
+          "https://cdn.autodoc.de/uploads/info_section/article/4006/1778150788_6621_784d153f5a9d0de0ff4a47cc31cdb44b.png",
+          "https://cdn.autodoc.de/uploads/info_section/article/4006/1778150779_2622_80c27686f1c6513013cac8e2a4435a3d.png",
+          "https://cdn.autodoc.de/uploads/info_section/article/4006/1778150779_2654_79b5d7dc96630f7eca084e246a72a6c3.png",
+          "https://cdn.autodoc.de/uploads/info_section/article/4006/1778150798_302_a0b434c457f29815bd3770e036068209.png",
+          "https://www.autodoc.es/lazyload.php?width=202&height=24",
+          "https://www.autodoc.es/lazyload.php?width=302&height=205",
+          "https://www.autodoc.es/lazyload.php?width=73&height=32",
+          "https://www.autodoc.es/lazyload.php?width=24&height=24",
+          "https://www.autodoc.es/lazyload.php?width=147&height=40",
+          "https://www.autodoc.es/assets/common/js/subscribe-push-notifications.js",
+          "https://www.autodoc.es/assets/54eb94/js/vendor.js?id=22f6aba75b798010005c2a19c2c4960e",
+          "https://www.autodoc.es/assets/54eb94/js/app.js?id=1f148e4484db31335cbd263de42da026",
+          "https://www.autodoc.es/assets/common/js/genesys/update/extracted/new-configuration.js?v=9",
+          "https://www.autodoc.es/assets/54eb94/css/new-genesys-theme.css?v=9",
+          "https://www.autodoc.es/assets/common/js/genesys/update/extracted/new-widget-pre-cx-bus.js?v=11",
+          "https://www.autodoc.es/assets/common/js/genesys/chat-widget.js?v=1",
+          "https://www.autodoc.es/assets/common/js/genesys/update/cxbus.min.js?v=1",
+          "https://www.autodoc.es/securegtm/?id=",
+          "https://www.autodoc.es/assets/54eb94/images/icon-sprite-bw.svg",
+          "https://www.autodoc.es/assets/54eb94/images/icon-sprite-bw.svg?id=e67eb4133ff7b06d8f78d1c3e46c85f3",
+          "https://www.autodoc.es/assets/54eb94/images/icon-sprite-color.svg?id=d22325e465317a8027edf245b10131f9",
+          "https://www.autodoc.es/assets/54eb94/fonts/Inter-VariableFont_opsz_wght.ttf",
+          "https://www.autodoc.es/assets/54eb94/fonts/Montserrat-VariableFont_wght.ttf",
+          "https://www.autodoc.es/lazyload.php?width=735&height=385",
+          "https://www.autodoc.es/assets/54eb94/images/svg/star-icon-orange-outline.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/star-icon-orange.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/dangerous/dangerous-info.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/const_youtube-fill-bw.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/const_facebook-icon.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/const_instagram-icon.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/const_tiktok-icon.svg",
+          "https://www.autodoc.es/securegtm/uU3a-8SE3n3tAstlln_qqxsyN3wPcbKeOod_L6rIxFlzEvJu",
+          "https://www.autodoc.es/securegtm/gs/ccm/collect?rcb=11&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.autodoc.es%2F&scrsrc=www.autodoc.es&rnd=391514491.1783681649&navt=n&npa=1&ep.ads_data_redaction=0&gdid=dNzQzZD&_tu=CA&gtm=45E92e6781v850280835za204zd850280835xea&gcs=G100&gcd=13q3q3q2q5l1&dma_cps=-&dma=1&tag_exp=115938466~115938468~118826210~118897920~118897930~119027224&apve=1&apvf=f&gap.gtb=1&apvc=1&tft=1783681648930&tfd=2016&fmt=8",
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20260515/4ef8a623mp6wck6r.jpg",
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20260702/49756e81mr3q5y8k.jpg",
+          "https://scdn.autodoc.de/catalog/categories/200x200/tyres_wheels.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10106.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10102.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10105.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10101.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10111.png",
+          "https://www.autodoc.es/assets/common/js/genesys/update/plugins/widgets-core.min.js",
+          "https://www.autodoc.es/p/static/kmtx.js?h=www.autodoc.es&p=%2F&c=1783681649515&cs=7125610229936097845&r=main",
+          "https://www.autodoc.es/securegtm/uU2C5sSG8DSKFdoKng_lpmtNJTkUNOzbe5Rmf6OZl1h8G9Tybg",
+          "https://www.autodoc.es/securegtm/uU2C5sSG8DSKEM4KlwzrrG1PJi9DeeSePosvcbjKhgN2F4Ckl4Go8m4",
+          "https://region1.google-analytics.com/g/collect?v=2&tid=G-ZSRB0C94FM&gtm=45g92e6781v869337977z8850280835za20kzb850280835zd850280835&_p=1783681648008&gcs=G100&gcd=13q3qPq2q5l1&npa=1&dma_cps=-&dma=1&ecid=1759670807&_eu=AAAAAGAC&_uip=%3A%3A&are=1&cid=349864381.1783681650&ec_mode=a&frm=0&pscdl=denied&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=es-es&ur=ES&gaf=2&_s=1&tag_exp=115938466~115938469~118826209~118897920~118897930~119027224&uid=&sid=1783681649&sct=1&seg=0&dl=https%3A%2F%2Fwww.autodoc.es%2F&dt=AUTODOC%20Espa%C3%B1a%20-%20tienda%20online%20de%20recambios%20coche%20con%20m%C3%A1s%20de%206%2C7%20millones%20de%20repuestos%20coches&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=1&gap.gtb=1&ep.cid=0&ep.timestamp=2026-07-10T11%3A07%3A28.882%2B00%3A00&ep.filter_value=&tfd=2845",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10110.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10150.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10435.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10116.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10113.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/other.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/33000.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/30000.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/36000.png",
+          "https://www.autodoc.es/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+          "https://www.autodoc.es/ajax/terms-cookies-content",
+          "https://www.autodoc.es/assets/54eb94/fonts/slick.woff",
+          "https://www.autodoc.es/cdn-cgi/challenge-platform/h/g/scripts/jsd/73f5d73b1f13/main.js?",
+          "https://www.autodoc.es/securegtm/ddm/activity/src=8369624;type=autod00;cat=all_s0;rcb=8;ord=452276038359;npa=1;u1=0;u6=ES;uaa=x86;uab=64;uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=denied;frm=0;_tu=KFA;gtm=45c92e6781v9181637640z8850280835za20kzb850280835zd850280835xea;gcs=G100;gcd=13q3qPq2q5l1;dma_cps=-;dma=1;dc_fmt=8;tag_exp=115938466~115938468~118395333~118826209~118897920~118897930~119027224;epver=2;gap.gtb=3;~oref=https%3A%2F%2Fwww.autodoc.es%2F?",
+          "https://www.autodoc.es/securegtm/ddm/activity/src=8369624;type=autod00;cat=all_s00;rcb=8;ord=1;num=6163275078246;npa=1;u1=0;u6=ES;uaa=x86;uab=64;uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=denied;frm=0;_tu=KJA;gtm=45c92e6781v9181637640z8850280835za20kzb850280835zd850280835xea;gcs=G100;gcd=13q3qPq2q5l1;dma_cps=-;dma=1;dc_fmt=8;tag_exp=115938466~115938468~118395333~118826209~118897920~118897930~119027224;epver=2;gap.gtb=3;~oref=https%3A%2F%2Fwww.autodoc.es%2F?",
+          "https://www.autodoc.es/securegtm/gs/ccm/collect?rcb=4&frm=0&ae=g&dl=https%3A%2F%2Fwww.autodoc.es%2F&scrsrc=www.autodoc.es&rnd=391514491.1783681649&navt=n&npa=1&ep.ads_data_redaction=0&_tu=CA&gtm=45892e6781v893618855z8850280835za20kzb850280835zd850280835xea&gcs=G100&gcd=13q3qPW2q5l1&dma_cps=-&dma=1&tag_exp=115938466~115938468~118826210~118897920~118897930~119027224&apve=1&apvf=f&gap.gtb=3&apvc=0&tids=AW-10830070455&tid=AW-10830070455&tft=1783681650709&tfd=3795&fmt=8",
+          "https://ade.googlesyndication.com/ddm/activity/src=8369624;dc_pre=CMfNtPn7x5UDFSpI9ggd_SUpVA;type=autod00;cat=all_s0;rcb=8;ord=452276038359;npa=1;u1=0;u6=ES;uaa=x86;uab=64;uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=denied;frm=0;_tu=KFA;gtm=45c92e6781v9181637640z8850280835za20kzb850280835zd850280835xea;gcs=G100;gcd=13q3qPq2q5l1;dma_cps=-;dma=1;dc_fmt=8;tag_exp=115938466~115938468~118395333~118826209~118897920~118897930~119027224;epver=2;gap.gtb=3;~oref=https%3A%2F%2Fwww.autodoc.es%2F?",
+          "https://ade.googlesyndication.com/ddm/activity/src=8369624;dc_pre=CLPWtPn7x5UDFZBJQQIdgyce1Q;type=autod00;cat=all_s00;rcb=8;ord=1;num=6163275078246;npa=1;u1=0;u6=ES;uaa=x86;uab=64;uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=denied;frm=0;_tu=KJA;gtm=45c92e6781v9181637640z8850280835za20kzb850280835zd850280835xea;gcs=G100;gcd=13q3qPq2q5l1;dma_cps=-;dma=1;dc_fmt=8;tag_exp=115938466~115938468~118395333~118826209~118897920~118897930~119027224;epver=2;gap.gtb=3;~oref=https%3A%2F%2Fwww.autodoc.es%2F?",
+          {
+            "type": "console.error",
+            "text": "The script resource is behind a redirect, which is disallowed."
+          },
+          "https://www.autodoc.es/assets/common/js/genesys/update/i18n/widgets-es.i18n.json",
+          "https://www.autodoc.es/p/g?t=AUTODOC%20Espa%C3%B1a%20-%20tienda%20online%20de%20recambios%20coche%20con%20m%C3%A1s%20de%206%2C7%20millones%20de%20repuestos%20coches&sw=1440&sh=900&pw=1440&ph=900&ww=1440&wh=900&bch=UTF-8&blng=es&dclt=5&dct=0&dit=2945&lest=0&leet=0&ld=0&type=it&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=0&cet=2026-07-10T11%3A07%3A30.895Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=in&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=0&cet=2026-07-10T11%3A07%3A31.135Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=in&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=0&cet=2026-07-10T11%3A07%3A31.151Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=in&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=0&cet=2026-07-10T11%3A07%3A31.160Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/cdn-cgi/challenge-platform/h/g/jsd/oneshot/73f5d73b1f13/0.8076957905777394:1783677629:ned5LoBk0W_j6GLn9FOzeKZp8AEFmOBAaUQi3sMdYwA/a18f1ad55afcec92",
+          "https://www.autodoc.es/p/g?type=sl&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=1&cet=2026-07-10T11%3A07%3A31.614Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=pe&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=1&cet=2026-07-10T11%3A07%3A31.616Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=pe&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=1&cet=2026-07-10T11%3A07%3A31.616Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=1&cet=2026-07-10T11%3A07%3A31.627Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/assets/54eb94/css/new-genesys-theme.css?v=9",
+          "https://www.autodoc.es/assets/common/js/genesys/update/i18n/survey.i18n.json",
+          "https://www.autodoc.es/assets/common/js/genesys/update/i18n/common.i18n.json",
+          "https://www.autodoc.es/assets/54eb94/images/svg/personal-manager-avatar2.svg",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/assets/common/js/genesys/update/plugins/webchatservice.min.js",
+          "https://www.autodoc.es/assets/common/js/genesys/update/plugins/webchat.min.js",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Refused to execute script from 'https://www.autodoc.es/assets/common/js/genesys/update/plugins/webchatservice.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Refused to execute script from 'https://www.autodoc.es/assets/common/js/genesys/update/plugins/webchat.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+          },
+          "https://www.autodoc.es/securegtm/gs/ccm/collect?rcb=4&frm=0&ae=g&dl=https%3A%2F%2Fwww.autodoc.es%2F&scrsrc=www.autodoc.es&rnd=391514491.1783681649&navt=n&npa=1&ep.ecomm_pagetype=main&ep.dynx_pagetype=main&ep.ads_data_redaction=0&gdid=dNzQzZD&_tu=CA&gtm=45892e6781v893618855z8850280835za20kzb850280835zd850280835xea&gcs=G100&gcd=13q3qPW2q5l1&dma_cps=-&dma=1&tag_exp=115938466~115938468~118826210~118897920~118897930~119027224&apve=1&apvf=f&gap.gtb=3&gap.gtbd=2&apvc=0&tids=AW-10830070455&tid=AW-10830070455&tft=1783681652140&tfd=5227&fmt=8",
+          "https://www.autodoc.es/p/g?type=pe&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=1&cet=2026-07-10T11%3A07%3A32.153Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/securegtm/gs/ccm/collect?rcb=4&frm=0&ae=g&dl=https%3A%2F%2Fwww.autodoc.es%2F&scrsrc=www.autodoc.es&rnd=391514491.1783681649&navt=n&npa=1&ep.ecomm_pagetype=main&ep.dynx_pagetype=main&ep.ads_data_redaction=0&gdid=dNzQzZD&_tu=CA&gtm=45892e6781v893618855z8850280835za20kzb850280835zd850280835xea&gcs=G100&gcd=13q3qPW2q5l1&dma_cps=-&dma=1&tag_exp=115938466~115938468~118826210~118897920~118897930~119027224&apve=1&apvf=f&gap.gtb=3&gap.gtbd=2&apvc=0&tids=AW-10830070455&tid=AW-10830070455&tft=1783681652140&tfd=5227&fmt=3",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          "https://www.autodoc.es/p/g?type=pe&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.493Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=sl&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.494Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=pe&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.495Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.497Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.530Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.591Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.598Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.601Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=pe&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.716Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.741Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A33.198Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A33.210Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20260703/65b556b2mr4w8hl3.jpg",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=3&cet=2026-07-10T11%3A07%3A33.633Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=3&cet=2026-07-10T11%3A07%3A33.722Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=3&cet=2026-07-10T11%3A07%3A33.739Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=3&cet=2026-07-10T11%3A07%3A33.749Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=3&cet=2026-07-10T11%3A07%3A33.764Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=3&cet=2026-07-10T11%3A07%3A34.161Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=3&cet=2026-07-10T11%3A07%3A34.185Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20260703/5d41b0c0mr53jno6.jpg",
+          "https://region1.google-analytics.com/g/collect?v=2&tid=G-ZSRB0C94FM&gtm=45g92e6781v869337977z8850280835za20kzb850280835zd850280835&_p=1783681648008&gcs=G100&gcd=13q3qPW2q5l1&npa=1&dma_cps=-&dma=1&gdid=dNzQzZD&ecid=1759670807&_eu=IAAAAGAC&_uip=%3A%3A&are=1&cid=349864381.1783681650&frm=0&pscdl=denied&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=es-es&ur=ES&gaf=2&_s=2&tag_exp=115938466~115938469~118826209~118897920~118897930~119027224&uid=&sid=1783681649&sct=1&seg=0&dl=https%3A%2F%2Fwww.autodoc.es%2F&dt=AUTODOC%20Espa%C3%B1a%20-%20tienda%20online%20de%20recambios%20coche%20con%20m%C3%A1s%20de%206%2C7%20millones%20de%20repuestos%20coches&_tu=CA&tfd=10199",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=6&cet=2026-07-10T11%3A07%3A37.146Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=7&cet=2026-07-10T11%3A07%3A37.671Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=7&cet=2026-07-10T11%3A07%3A37.694Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20260703/1b948c34mr52de6v.png",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=10&cet=2026-07-10T11%3A07%3A40.669Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=10&cet=2026-07-10T11%3A07%3A41.197Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=10&cet=2026-07-10T11%3A07%3A41.237Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20251128/4048d481miiv09pt.jpg",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=13&cet=2026-07-10T11%3A07%3A44.186Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=14&cet=2026-07-10T11%3A07%3A44.711Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=14&cet=2026-07-10T11%3A07%3A44.738Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          "https://scdn.autodoc.de/makers/121.svg",
+          "https://scdn.autodoc.de/makers/16.svg",
+          "https://scdn.autodoc.de/makers/74.svg",
+          "https://scdn.autodoc.de/makers/104.svg",
+          "https://scdn.autodoc.de/makers/93.svg",
+          "https://scdn.autodoc.de/makers/5.svg",
+          "https://scdn.autodoc.de/makers/88.svg",
+          "https://scdn.autodoc.de/makers/21.svg",
+          "https://scdn.autodoc.de/makers/36.svg",
+          "https://scdn.autodoc.de/makers/84.svg",
+          "https://scdn.autodoc.de/makers/111.svg",
+          "https://scdn.autodoc.de/makers/80.svg",
+          "https://scdn.autodoc.de/makers/35.svg",
+          "https://scdn.autodoc.de/makers/183.svg",
+          "https://scdn.autodoc.de/makers/45.svg",
+          "https://scdn.autodoc.de/makers/184.svg",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=16&cet=2026-07-10T11%3A07%3A47.197Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=sl&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=17&cet=2026-07-10T11%3A07%3A47.384Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20251124/21c1768mid7b1cl.jpg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/return-icon.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/wallet-icon-bw.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/app-phone-icon-bw.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/youtube-fill-grey.svg",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=17&cet=2026-07-10T11%3A07%3A47.721Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=17&cet=2026-07-10T11%3A07%3A47.749Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20251124/4dd5cf10mid7prrz.jpg",
+          "https://www.autodoc.es/p/g?type=sl&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=17&cet=2026-07-10T11%3A07%3A47.941Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=17&cet=2026-07-10T11%3A07%3A47.964Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=18&cet=2026-07-10T11%3A07%3A49.191Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=19&cet=2026-07-10T11%3A07%3A49.715Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=19&cet=2026-07-10T11%3A07%3A49.743Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          }
+        ]
+      }
+    },
+    "1920x1080": {
+      "viewport": {
+        "w": 1920,
+        "h": 1080
+      },
+      "screenshot": "/app/clone-web/team-log/screens/eval_orig_1920x1080.png",
+      "data": {
+        "layoutRects": {
+          "header": {
+            "x": 0,
+            "y": 0,
+            "w": 1910,
+            "h": 0
+          },
+          "subnav": {
+            "x": 0,
+            "y": 0,
+            "w": 1910,
+            "h": 7006
+          },
+          "card": null,
+          "banner": {
+            "x": 0,
+            "y": 220,
+            "w": 0,
+            "h": 0,
+            "tag": "DIV",
+            "cls": "app-left-banner app-left-banner--under-overlay"
+          },
+          "cta": {
+            "x": 344,
+            "y": 395,
+            "w": 472,
+            "h": 48,
+            "text": "Buscar"
+          },
+          "viewport": {
+            "w": 1920,
+            "h": 1080
+          },
+          "docH": 7007
+        },
+        "subnavList": {
+          "count": 9,
+          "items": [
+            {
+              "text": "Vehículo de turismo",
+              "active": false
+            },
+            {
+              "text": "Neumáticos",
+              "active": false
+            },
+            {
+              "text": "Llantas",
+              "active": false
+            },
+            {
+              "text": "Herramientas",
+              "active": false
+            },
+            {
+              "text": "Limpieza y Cuidado",
+              "active": false
+            },
+            {
+              "text": "Accesorios para coches",
+              "active": false
+            },
+            {
+              "text": "Aceite de motor",
+              "active": false
+            },
+            {
+              "text": "Filtros",
+              "active": false
+            },
+            {
+              "text": "Frenos",
+              "active": false
+            }
+          ]
+        },
+        "tabsClickable": {
+          "count": 1,
+          "first": {
+            "tag": "A",
+            "cursor": "pointer",
+            "pointerEvents": "auto",
+            "href": "https://www.autodoc.es/llantas"
+          }
+        },
+        "cascade": {},
+        "ctaStyles": {
+          "text": "Buscar",
+          "rect": {
+            "x": 344,
+            "y": 395,
+            "w": 472,
+            "h": 48
+          },
+          "bg": "rgb(0, 104, 215)",
+          "bgHex": "#0068D7",
+          "color": "rgb(255, 255, 255)",
+          "colorHex": "#FFFFFF",
+          "fontFamily": "Montserrat, Arial, sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "600",
+          "borderRadius": "1.859px",
+          "padding": "0px 24px",
+          "boxShadow": "none",
+          "opacity": "1"
+        },
+        "colorTokens": {
+          "bodyBg": "#000000",
+          "bodyColor": "#132530",
+          "headerBg": "#041A24",
+          "headerColor": "#132530",
+          "subnavBg": null,
+          "subnavText": null,
+          "cardBg": "#000000",
+          "cardBorder": "0px none rgb(19, 37, 48)",
+          "cardRadius": "0px",
+          "ctaBg": "#0068D7",
+          "ctaText": "#FFFFFF",
+          "badgeBg": null,
+          "badgeText": null,
+          "orangeBg": null
+        },
+        "dropdownPanel": {
+          "exists": false
+        },
+        "headerAssets": {
+          "logoPresent": true,
+          "logoSrc": null,
+          "logoRect": {
+            "x": 320,
+            "y": 17,
+            "w": 203,
+            "h": 29
+          },
+          "utilityLinksCount": 2,
+          "utilitySample": [
+            "Vehículo de turismo",
+            "Llantas"
+          ]
+        },
+        "carousel": {
+          "exists": true,
+          "slideCount": 17,
+          "dotCount": 0,
+          "activeIdx": -1,
+          "autoplay": "3",
+          "autoplaySpeed": null,
+          "rect": {
+            "x": 855,
+            "y": 153,
+            "w": 734,
+            "h": 387
+          }
+        },
+        "hoverBase": {
+          "tab": null,
+          "cta": {
+            "color": "rgb(255, 255, 255)",
+            "bg": "rgb(0, 104, 215)",
+            "boxShadow": "none",
+            "borderColor": "rgb(255, 255, 255)"
+          }
+        },
+        "orangeAccents": {
+          "count": 5,
+          "samples": [
+            {
+              "tag": "DIV",
+              "cls": "car-selector__error-text",
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(237, 92, 14)"
+            },
+            {
+              "tag": "DIV",
+              "cls": "car-selector__error-text",
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(237, 92, 14)"
+            },
+            {
+              "tag": "DIV",
+              "cls": "car-selector__error-text",
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(237, 92, 14)"
+            },
+            {
+              "tag": "DIV",
+              "cls": "input-error",
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(237, 92, 14)"
+            }
+          ]
+        },
+        "consoleErrors": {
+          "count": 0,
+          "errors": []
+        },
+        "belowFold": {
+          "viewportH": 1080,
+          "rootBottom": 1080,
+          "rootHeight": 1080,
+          "docHeight": 7007,
+          "bleedCount": 1844,
+          "bleedSample": [
+            {
+              "tag": "DIV",
+              "cls": "",
+              "top": 0,
+              "bottom": 7006,
+              "bleed": 5926.625
+            },
+            {
+              "tag": "MAIN",
+              "cls": "index-page",
+              "top": 153,
+              "bottom": 5363,
+              "bleed": 4283.203125
+            },
+            {
+              "tag": "SECTION",
+              "cls": "section wrap",
+              "top": 616,
+              "bottom": 1247,
+              "bleed": 167.3125
+            },
+            {
+              "tag": "DIV",
+              "cls": "section__wrap",
+              "top": 664,
+              "bottom": 1247,
+              "bleed": 167.3125
+            },
+            {
+              "tag": "DIV",
+              "cls": "row row-gap row-cols-2 row-col",
+              "top": 664,
+              "bottom": 1191,
+              "bleed": 111.3125
+            }
+          ],
+          "suspicious": {
+            "losSuperventas": true,
+            "todasLasCategorias": false,
+            "todoParaSuCoche": true
+          }
+        },
+        "hoverPost": {
+          "tab": null,
+          "cta": {
+            "color": "rgb(255, 255, 255)",
+            "bg": "rgb(0, 116, 241)",
+            "boxShadow": "none",
+            "borderColor": "rgb(255, 255, 255)"
+          }
+        },
+        "cascadeInteraction": {
+          "makeOpened": {
+            "error": "make button not found"
+          },
+          "makePanel": {
+            "exists": false
+          },
+          "persistedTrigger": "Buscar",
+          "modelAfter": {
+            "found": false
+          },
+          "modelPanel": {
+            "exists": false
+          }
+        },
+        "_net": [
+          "https://www.autodoc.es/",
+          "https://www.autodoc.es/assets/54eb94/css/vendor.css?id=92d80133937178644d79df354867cb52",
+          "https://www.autodoc.es/assets/54eb94/css/app.css?id=216a10da9613f968c431b6389b415c5e",
+          "https://scdn.autodoc.de/static/logo/logo-light.svg",
+          "https://www.autodoc.es/lazyload.php?width=150&height=150",
+          "https://www.autodoc.es/lazyload.php?width=48&height=48",
+          "https://www.autodoc.es/lazyload.php?width=96&height=48",
+          "https://www.autodoc.es/lazyload.php?width=32&height=32",
+          "https://www.autodoc.es/lazyload.php?width=88&height=88",
+          "https://www.autodoc.es/lazyload.php?width=88&height=38",
+          "https://www.autodoc.es/lazyload.php?width=120&height=72",
+          "https://cdn.autodoc.de/uploads/info_section/article/4006/1778150779_27_92a1bb670653230fd95d2899f8559ec5.png",
+          "https://cdn.autodoc.de/uploads/info_section/article/4006/1778150843_1422_9d804cfb06451d65952dc4568e357dc2.png",
+          "https://cdn.autodoc.de/uploads/info_section/article/4006/1778150793_1775_77c0e00af20e85df0c246b063d8e8d5c.png",
+          "https://cdn.autodoc.de/uploads/info_section/article/4006/1778150788_6621_784d153f5a9d0de0ff4a47cc31cdb44b.png",
+          "https://cdn.autodoc.de/uploads/info_section/article/4006/1778150779_2622_80c27686f1c6513013cac8e2a4435a3d.png",
+          "https://cdn.autodoc.de/uploads/info_section/article/4006/1778150779_2654_79b5d7dc96630f7eca084e246a72a6c3.png",
+          "https://cdn.autodoc.de/uploads/info_section/article/4006/1778150798_302_a0b434c457f29815bd3770e036068209.png",
+          "https://www.autodoc.es/lazyload.php?width=202&height=24",
+          "https://www.autodoc.es/lazyload.php?width=302&height=205",
+          "https://www.autodoc.es/lazyload.php?width=73&height=32",
+          "https://www.autodoc.es/lazyload.php?width=24&height=24",
+          "https://www.autodoc.es/lazyload.php?width=147&height=40",
+          "https://www.autodoc.es/assets/common/js/subscribe-push-notifications.js",
+          "https://www.autodoc.es/assets/54eb94/js/vendor.js?id=22f6aba75b798010005c2a19c2c4960e",
+          "https://www.autodoc.es/assets/54eb94/js/app.js?id=1f148e4484db31335cbd263de42da026",
+          "https://www.autodoc.es/assets/common/js/genesys/update/extracted/new-configuration.js?v=9",
+          "https://www.autodoc.es/assets/54eb94/css/new-genesys-theme.css?v=9",
+          "https://www.autodoc.es/assets/common/js/genesys/update/extracted/new-widget-pre-cx-bus.js?v=11",
+          "https://www.autodoc.es/assets/common/js/genesys/chat-widget.js?v=1",
+          "https://www.autodoc.es/assets/common/js/genesys/update/cxbus.min.js?v=1",
+          "https://www.autodoc.es/securegtm/?id=",
+          "https://www.autodoc.es/assets/54eb94/images/icon-sprite-bw.svg",
+          "https://www.autodoc.es/assets/54eb94/images/icon-sprite-bw.svg?id=e67eb4133ff7b06d8f78d1c3e46c85f3",
+          "https://www.autodoc.es/assets/54eb94/images/icon-sprite-color.svg?id=d22325e465317a8027edf245b10131f9",
+          "https://www.autodoc.es/assets/54eb94/fonts/Inter-VariableFont_opsz_wght.ttf",
+          "https://www.autodoc.es/assets/54eb94/fonts/Montserrat-VariableFont_wght.ttf",
+          "https://www.autodoc.es/lazyload.php?width=735&height=385",
+          "https://www.autodoc.es/assets/54eb94/images/svg/star-icon-orange-outline.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/star-icon-orange.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/dangerous/dangerous-info.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/const_youtube-fill-bw.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/const_facebook-icon.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/const_instagram-icon.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/const_tiktok-icon.svg",
+          "https://www.autodoc.es/securegtm/uU3a-8SE3n3tAstlln_qqxsyN3wPcbKeOod_L6rIxFlzEvJu",
+          "https://www.autodoc.es/securegtm/gs/ccm/collect?rcb=11&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.autodoc.es%2F&scrsrc=www.autodoc.es&rnd=391514491.1783681649&navt=n&npa=1&ep.ads_data_redaction=0&gdid=dNzQzZD&_tu=CA&gtm=45E92e6781v850280835za204zd850280835xea&gcs=G100&gcd=13q3q3q2q5l1&dma_cps=-&dma=1&tag_exp=115938466~115938468~118826210~118897920~118897930~119027224&apve=1&apvf=f&gap.gtb=1&apvc=1&tft=1783681648930&tfd=2016&fmt=8",
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20260515/4ef8a623mp6wck6r.jpg",
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20260702/49756e81mr3q5y8k.jpg",
+          "https://scdn.autodoc.de/catalog/categories/200x200/tyres_wheels.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10106.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10102.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10105.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10101.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10111.png",
+          "https://www.autodoc.es/assets/common/js/genesys/update/plugins/widgets-core.min.js",
+          "https://www.autodoc.es/p/static/kmtx.js?h=www.autodoc.es&p=%2F&c=1783681649515&cs=7125610229936097845&r=main",
+          "https://www.autodoc.es/securegtm/uU2C5sSG8DSKFdoKng_lpmtNJTkUNOzbe5Rmf6OZl1h8G9Tybg",
+          "https://www.autodoc.es/securegtm/uU2C5sSG8DSKEM4KlwzrrG1PJi9DeeSePosvcbjKhgN2F4Ckl4Go8m4",
+          "https://region1.google-analytics.com/g/collect?v=2&tid=G-ZSRB0C94FM&gtm=45g92e6781v869337977z8850280835za20kzb850280835zd850280835&_p=1783681648008&gcs=G100&gcd=13q3qPq2q5l1&npa=1&dma_cps=-&dma=1&ecid=1759670807&_eu=AAAAAGAC&_uip=%3A%3A&are=1&cid=349864381.1783681650&ec_mode=a&frm=0&pscdl=denied&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=es-es&ur=ES&gaf=2&_s=1&tag_exp=115938466~115938469~118826209~118897920~118897930~119027224&uid=&sid=1783681649&sct=1&seg=0&dl=https%3A%2F%2Fwww.autodoc.es%2F&dt=AUTODOC%20Espa%C3%B1a%20-%20tienda%20online%20de%20recambios%20coche%20con%20m%C3%A1s%20de%206%2C7%20millones%20de%20repuestos%20coches&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=1&gap.gtb=1&ep.cid=0&ep.timestamp=2026-07-10T11%3A07%3A28.882%2B00%3A00&ep.filter_value=&tfd=2845",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10110.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10150.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10435.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10116.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10113.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/other.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/33000.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/30000.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/36000.png",
+          "https://www.autodoc.es/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+          "https://www.autodoc.es/ajax/terms-cookies-content",
+          "https://www.autodoc.es/assets/54eb94/fonts/slick.woff",
+          "https://www.autodoc.es/cdn-cgi/challenge-platform/h/g/scripts/jsd/73f5d73b1f13/main.js?",
+          "https://www.autodoc.es/securegtm/ddm/activity/src=8369624;type=autod00;cat=all_s0;rcb=8;ord=452276038359;npa=1;u1=0;u6=ES;uaa=x86;uab=64;uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=denied;frm=0;_tu=KFA;gtm=45c92e6781v9181637640z8850280835za20kzb850280835zd850280835xea;gcs=G100;gcd=13q3qPq2q5l1;dma_cps=-;dma=1;dc_fmt=8;tag_exp=115938466~115938468~118395333~118826209~118897920~118897930~119027224;epver=2;gap.gtb=3;~oref=https%3A%2F%2Fwww.autodoc.es%2F?",
+          "https://www.autodoc.es/securegtm/ddm/activity/src=8369624;type=autod00;cat=all_s00;rcb=8;ord=1;num=6163275078246;npa=1;u1=0;u6=ES;uaa=x86;uab=64;uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=denied;frm=0;_tu=KJA;gtm=45c92e6781v9181637640z8850280835za20kzb850280835zd850280835xea;gcs=G100;gcd=13q3qPq2q5l1;dma_cps=-;dma=1;dc_fmt=8;tag_exp=115938466~115938468~118395333~118826209~118897920~118897930~119027224;epver=2;gap.gtb=3;~oref=https%3A%2F%2Fwww.autodoc.es%2F?",
+          "https://www.autodoc.es/securegtm/gs/ccm/collect?rcb=4&frm=0&ae=g&dl=https%3A%2F%2Fwww.autodoc.es%2F&scrsrc=www.autodoc.es&rnd=391514491.1783681649&navt=n&npa=1&ep.ads_data_redaction=0&_tu=CA&gtm=45892e6781v893618855z8850280835za20kzb850280835zd850280835xea&gcs=G100&gcd=13q3qPW2q5l1&dma_cps=-&dma=1&tag_exp=115938466~115938468~118826210~118897920~118897930~119027224&apve=1&apvf=f&gap.gtb=3&apvc=0&tids=AW-10830070455&tid=AW-10830070455&tft=1783681650709&tfd=3795&fmt=8",
+          "https://ade.googlesyndication.com/ddm/activity/src=8369624;dc_pre=CMfNtPn7x5UDFSpI9ggd_SUpVA;type=autod00;cat=all_s0;rcb=8;ord=452276038359;npa=1;u1=0;u6=ES;uaa=x86;uab=64;uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=denied;frm=0;_tu=KFA;gtm=45c92e6781v9181637640z8850280835za20kzb850280835zd850280835xea;gcs=G100;gcd=13q3qPq2q5l1;dma_cps=-;dma=1;dc_fmt=8;tag_exp=115938466~115938468~118395333~118826209~118897920~118897930~119027224;epver=2;gap.gtb=3;~oref=https%3A%2F%2Fwww.autodoc.es%2F?",
+          "https://ade.googlesyndication.com/ddm/activity/src=8369624;dc_pre=CLPWtPn7x5UDFZBJQQIdgyce1Q;type=autod00;cat=all_s00;rcb=8;ord=1;num=6163275078246;npa=1;u1=0;u6=ES;uaa=x86;uab=64;uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=denied;frm=0;_tu=KJA;gtm=45c92e6781v9181637640z8850280835za20kzb850280835zd850280835xea;gcs=G100;gcd=13q3qPq2q5l1;dma_cps=-;dma=1;dc_fmt=8;tag_exp=115938466~115938468~118395333~118826209~118897920~118897930~119027224;epver=2;gap.gtb=3;~oref=https%3A%2F%2Fwww.autodoc.es%2F?",
+          {
+            "type": "console.error",
+            "text": "The script resource is behind a redirect, which is disallowed."
+          },
+          "https://www.autodoc.es/assets/common/js/genesys/update/i18n/widgets-es.i18n.json",
+          "https://www.autodoc.es/p/g?t=AUTODOC%20Espa%C3%B1a%20-%20tienda%20online%20de%20recambios%20coche%20con%20m%C3%A1s%20de%206%2C7%20millones%20de%20repuestos%20coches&sw=1440&sh=900&pw=1440&ph=900&ww=1440&wh=900&bch=UTF-8&blng=es&dclt=5&dct=0&dit=2945&lest=0&leet=0&ld=0&type=it&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=0&cet=2026-07-10T11%3A07%3A30.895Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=in&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=0&cet=2026-07-10T11%3A07%3A31.135Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=in&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=0&cet=2026-07-10T11%3A07%3A31.151Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=in&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=0&cet=2026-07-10T11%3A07%3A31.160Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/cdn-cgi/challenge-platform/h/g/jsd/oneshot/73f5d73b1f13/0.8076957905777394:1783677629:ned5LoBk0W_j6GLn9FOzeKZp8AEFmOBAaUQi3sMdYwA/a18f1ad55afcec92",
+          "https://www.autodoc.es/p/g?type=sl&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=1&cet=2026-07-10T11%3A07%3A31.614Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=pe&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=1&cet=2026-07-10T11%3A07%3A31.616Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=pe&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=1&cet=2026-07-10T11%3A07%3A31.616Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=1&cet=2026-07-10T11%3A07%3A31.627Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/assets/54eb94/css/new-genesys-theme.css?v=9",
+          "https://www.autodoc.es/assets/common/js/genesys/update/i18n/survey.i18n.json",
+          "https://www.autodoc.es/assets/common/js/genesys/update/i18n/common.i18n.json",
+          "https://www.autodoc.es/assets/54eb94/images/svg/personal-manager-avatar2.svg",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/assets/common/js/genesys/update/plugins/webchatservice.min.js",
+          "https://www.autodoc.es/assets/common/js/genesys/update/plugins/webchat.min.js",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Refused to execute script from 'https://www.autodoc.es/assets/common/js/genesys/update/plugins/webchatservice.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Refused to execute script from 'https://www.autodoc.es/assets/common/js/genesys/update/plugins/webchat.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+          },
+          "https://www.autodoc.es/securegtm/gs/ccm/collect?rcb=4&frm=0&ae=g&dl=https%3A%2F%2Fwww.autodoc.es%2F&scrsrc=www.autodoc.es&rnd=391514491.1783681649&navt=n&npa=1&ep.ecomm_pagetype=main&ep.dynx_pagetype=main&ep.ads_data_redaction=0&gdid=dNzQzZD&_tu=CA&gtm=45892e6781v893618855z8850280835za20kzb850280835zd850280835xea&gcs=G100&gcd=13q3qPW2q5l1&dma_cps=-&dma=1&tag_exp=115938466~115938468~118826210~118897920~118897930~119027224&apve=1&apvf=f&gap.gtb=3&gap.gtbd=2&apvc=0&tids=AW-10830070455&tid=AW-10830070455&tft=1783681652140&tfd=5227&fmt=8",
+          "https://www.autodoc.es/p/g?type=pe&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=1&cet=2026-07-10T11%3A07%3A32.153Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/securegtm/gs/ccm/collect?rcb=4&frm=0&ae=g&dl=https%3A%2F%2Fwww.autodoc.es%2F&scrsrc=www.autodoc.es&rnd=391514491.1783681649&navt=n&npa=1&ep.ecomm_pagetype=main&ep.dynx_pagetype=main&ep.ads_data_redaction=0&gdid=dNzQzZD&_tu=CA&gtm=45892e6781v893618855z8850280835za20kzb850280835zd850280835xea&gcs=G100&gcd=13q3qPW2q5l1&dma_cps=-&dma=1&tag_exp=115938466~115938468~118826210~118897920~118897930~119027224&apve=1&apvf=f&gap.gtb=3&gap.gtbd=2&apvc=0&tids=AW-10830070455&tid=AW-10830070455&tft=1783681652140&tfd=5227&fmt=3",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          "https://www.autodoc.es/p/g?type=pe&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.493Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=sl&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.494Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=pe&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.495Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.497Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.530Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.591Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.598Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.601Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=pe&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.716Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.741Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A33.198Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A33.210Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20260703/65b556b2mr4w8hl3.jpg",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=3&cet=2026-07-10T11%3A07%3A33.633Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=3&cet=2026-07-10T11%3A07%3A33.722Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=3&cet=2026-07-10T11%3A07%3A33.739Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=3&cet=2026-07-10T11%3A07%3A33.749Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=3&cet=2026-07-10T11%3A07%3A33.764Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=3&cet=2026-07-10T11%3A07%3A34.161Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=3&cet=2026-07-10T11%3A07%3A34.185Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20260703/5d41b0c0mr53jno6.jpg",
+          "https://region1.google-analytics.com/g/collect?v=2&tid=G-ZSRB0C94FM&gtm=45g92e6781v869337977z8850280835za20kzb850280835zd850280835&_p=1783681648008&gcs=G100&gcd=13q3qPW2q5l1&npa=1&dma_cps=-&dma=1&gdid=dNzQzZD&ecid=1759670807&_eu=IAAAAGAC&_uip=%3A%3A&are=1&cid=349864381.1783681650&frm=0&pscdl=denied&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=es-es&ur=ES&gaf=2&_s=2&tag_exp=115938466~115938469~118826209~118897920~118897930~119027224&uid=&sid=1783681649&sct=1&seg=0&dl=https%3A%2F%2Fwww.autodoc.es%2F&dt=AUTODOC%20Espa%C3%B1a%20-%20tienda%20online%20de%20recambios%20coche%20con%20m%C3%A1s%20de%206%2C7%20millones%20de%20repuestos%20coches&_tu=CA&tfd=10199",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=6&cet=2026-07-10T11%3A07%3A37.146Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=7&cet=2026-07-10T11%3A07%3A37.671Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=7&cet=2026-07-10T11%3A07%3A37.694Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20260703/1b948c34mr52de6v.png",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=10&cet=2026-07-10T11%3A07%3A40.669Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=10&cet=2026-07-10T11%3A07%3A41.197Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=10&cet=2026-07-10T11%3A07%3A41.237Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20251128/4048d481miiv09pt.jpg",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=13&cet=2026-07-10T11%3A07%3A44.186Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=14&cet=2026-07-10T11%3A07%3A44.711Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=14&cet=2026-07-10T11%3A07%3A44.738Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          "https://scdn.autodoc.de/makers/121.svg",
+          "https://scdn.autodoc.de/makers/16.svg",
+          "https://scdn.autodoc.de/makers/74.svg",
+          "https://scdn.autodoc.de/makers/104.svg",
+          "https://scdn.autodoc.de/makers/93.svg",
+          "https://scdn.autodoc.de/makers/5.svg",
+          "https://scdn.autodoc.de/makers/88.svg",
+          "https://scdn.autodoc.de/makers/21.svg",
+          "https://scdn.autodoc.de/makers/36.svg",
+          "https://scdn.autodoc.de/makers/84.svg",
+          "https://scdn.autodoc.de/makers/111.svg",
+          "https://scdn.autodoc.de/makers/80.svg",
+          "https://scdn.autodoc.de/makers/35.svg",
+          "https://scdn.autodoc.de/makers/183.svg",
+          "https://scdn.autodoc.de/makers/45.svg",
+          "https://scdn.autodoc.de/makers/184.svg",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=16&cet=2026-07-10T11%3A07%3A47.197Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=sl&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=17&cet=2026-07-10T11%3A07%3A47.384Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20251124/21c1768mid7b1cl.jpg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/return-icon.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/wallet-icon-bw.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/app-phone-icon-bw.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/youtube-fill-grey.svg",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=17&cet=2026-07-10T11%3A07%3A47.721Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=17&cet=2026-07-10T11%3A07%3A47.749Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20251124/4dd5cf10mid7prrz.jpg",
+          "https://www.autodoc.es/p/g?type=sl&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=17&cet=2026-07-10T11%3A07%3A47.941Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=17&cet=2026-07-10T11%3A07%3A47.964Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=18&cet=2026-07-10T11%3A07%3A49.191Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=19&cet=2026-07-10T11%3A07%3A49.715Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=19&cet=2026-07-10T11%3A07%3A49.743Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          }
+        ]
+      }
+    },
+    "1280x800": {
+      "viewport": {
+        "w": 1280,
+        "h": 800
+      },
+      "screenshot": "/app/clone-web/team-log/screens/eval_orig_1280x800.png",
+      "data": {
+        "layoutRects": {
+          "header": {
+            "x": 0,
+            "y": 0,
+            "w": 1270,
+            "h": 0
+          },
+          "subnav": {
+            "x": 0,
+            "y": 0,
+            "w": 1270,
+            "h": 6995
+          },
+          "card": null,
+          "banner": {
+            "x": 0,
+            "y": 0,
+            "w": 0,
+            "h": 0,
+            "tag": "DIV",
+            "cls": "app-left-banner app-left-banner--under-overlay"
+          },
+          "cta": {
+            "x": 31,
+            "y": 395,
+            "w": 466,
+            "h": 48,
+            "text": "Buscar"
+          },
+          "viewport": {
+            "w": 1280,
+            "h": 800
+          },
+          "docH": 6996
+        },
+        "subnavList": {
+          "count": 9,
+          "items": [
+            {
+              "text": "Vehículo de turismo",
+              "active": false
+            },
+            {
+              "text": "Neumáticos",
+              "active": false
+            },
+            {
+              "text": "Llantas",
+              "active": false
+            },
+            {
+              "text": "Herramientas",
+              "active": false
+            },
+            {
+              "text": "Limpieza y Cuidado",
+              "active": false
+            },
+            {
+              "text": "Accesorios para coches",
+              "active": false
+            },
+            {
+              "text": "Aceite de motor",
+              "active": false
+            },
+            {
+              "text": "Filtros",
+              "active": false
+            },
+            {
+              "text": "Frenos",
+              "active": false
+            }
+          ]
+        },
+        "tabsClickable": {
+          "count": 1,
+          "first": {
+            "tag": "A",
+            "cursor": "pointer",
+            "pointerEvents": "auto",
+            "href": "https://www.autodoc.es/llantas"
+          }
+        },
+        "cascade": {},
+        "ctaStyles": {
+          "text": "Buscar",
+          "rect": {
+            "x": 31,
+            "y": 395,
+            "w": 466,
+            "h": 48
+          },
+          "bg": "rgb(0, 104, 215)",
+          "bgHex": "#0068D7",
+          "color": "rgb(255, 255, 255)",
+          "colorHex": "#FFFFFF",
+          "fontFamily": "Montserrat, Arial, sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "600",
+          "borderRadius": "1.859px",
+          "padding": "0px 24px",
+          "boxShadow": "none",
+          "opacity": "1"
+        },
+        "colorTokens": {
+          "bodyBg": "#000000",
+          "bodyColor": "#132530",
+          "headerBg": "#041A24",
+          "headerColor": "#132530",
+          "subnavBg": null,
+          "subnavText": null,
+          "cardBg": "#000000",
+          "cardBorder": "0px none rgb(19, 37, 48)",
+          "cardRadius": "0px",
+          "ctaBg": "#0068D7",
+          "ctaText": "#FFFFFF",
+          "badgeBg": null,
+          "badgeText": null,
+          "orangeBg": null
+        },
+        "dropdownPanel": {
+          "exists": false
+        },
+        "headerAssets": {
+          "logoPresent": true,
+          "logoSrc": null,
+          "logoRect": {
+            "x": 7,
+            "y": 17,
+            "w": 203,
+            "h": 29
+          },
+          "utilityLinksCount": 2,
+          "utilitySample": [
+            "Vehículo de turismo",
+            "Llantas"
+          ]
+        },
+        "carousel": {
+          "exists": true,
+          "slideCount": 17,
+          "dotCount": 0,
+          "activeIdx": -1,
+          "autoplay": "3",
+          "autoplaySpeed": null,
+          "rect": {
+            "x": 536,
+            "y": 153,
+            "w": 725,
+            "h": 382
+          }
+        },
+        "hoverBase": {
+          "tab": null,
+          "cta": {
+            "color": "rgb(255, 255, 255)",
+            "bg": "rgb(0, 104, 215)",
+            "boxShadow": "none",
+            "borderColor": "rgb(255, 255, 255)"
+          }
+        },
+        "orangeAccents": {
+          "count": 5,
+          "samples": [
+            {
+              "tag": "DIV",
+              "cls": "car-selector__error-text",
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(237, 92, 14)"
+            },
+            {
+              "tag": "DIV",
+              "cls": "car-selector__error-text",
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(237, 92, 14)"
+            },
+            {
+              "tag": "DIV",
+              "cls": "car-selector__error-text",
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(237, 92, 14)"
+            },
+            {
+              "tag": "DIV",
+              "cls": "input-error",
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(237, 92, 14)"
+            }
+          ]
+        },
+        "consoleErrors": {
+          "count": 0,
+          "errors": []
+        },
+        "belowFold": {
+          "viewportH": 800,
+          "rootBottom": 800,
+          "rootHeight": 800,
+          "docHeight": 6996,
+          "bleedCount": 1880,
+          "bleedSample": [
+            {
+              "tag": "DIV",
+              "cls": "",
+              "top": 0,
+              "bottom": 6995,
+              "bleed": 6195.5625
+            },
+            {
+              "tag": "MAIN",
+              "cls": "index-page",
+              "top": 153,
+              "bottom": 5354,
+              "bleed": 4554.6875
+            },
+            {
+              "tag": "SECTION",
+              "cls": "section wrap",
+              "top": 611,
+              "bottom": 1237,
+              "bleed": 437.5625
+            },
+            {
+              "tag": "DIV",
+              "cls": "section__wrap",
+              "top": 659,
+              "bottom": 1237,
+              "bleed": 437.5625
+            },
+            {
+              "tag": "DIV",
+              "cls": "row row-gap row-cols-2 row-col",
+              "top": 659,
+              "bottom": 1181,
+              "bleed": 381.5625
+            }
+          ],
+          "suspicious": {
+            "losSuperventas": true,
+            "todasLasCategorias": false,
+            "todoParaSuCoche": true
+          }
+        },
+        "hoverPost": {
+          "tab": null,
+          "cta": {
+            "color": "rgb(255, 255, 255)",
+            "bg": "rgb(0, 116, 241)",
+            "boxShadow": "none",
+            "borderColor": "rgb(255, 255, 255)"
+          }
+        },
+        "cascadeInteraction": {
+          "makeOpened": {
+            "error": "make button not found"
+          },
+          "makePanel": {
+            "exists": false
+          },
+          "persistedTrigger": "Buscar",
+          "modelAfter": {
+            "found": false
+          },
+          "modelPanel": {
+            "exists": false
+          }
+        },
+        "_net": [
+          "https://www.autodoc.es/",
+          "https://www.autodoc.es/assets/54eb94/css/vendor.css?id=92d80133937178644d79df354867cb52",
+          "https://www.autodoc.es/assets/54eb94/css/app.css?id=216a10da9613f968c431b6389b415c5e",
+          "https://scdn.autodoc.de/static/logo/logo-light.svg",
+          "https://www.autodoc.es/lazyload.php?width=150&height=150",
+          "https://www.autodoc.es/lazyload.php?width=48&height=48",
+          "https://www.autodoc.es/lazyload.php?width=96&height=48",
+          "https://www.autodoc.es/lazyload.php?width=32&height=32",
+          "https://www.autodoc.es/lazyload.php?width=88&height=88",
+          "https://www.autodoc.es/lazyload.php?width=88&height=38",
+          "https://www.autodoc.es/lazyload.php?width=120&height=72",
+          "https://cdn.autodoc.de/uploads/info_section/article/4006/1778150779_27_92a1bb670653230fd95d2899f8559ec5.png",
+          "https://cdn.autodoc.de/uploads/info_section/article/4006/1778150843_1422_9d804cfb06451d65952dc4568e357dc2.png",
+          "https://cdn.autodoc.de/uploads/info_section/article/4006/1778150793_1775_77c0e00af20e85df0c246b063d8e8d5c.png",
+          "https://cdn.autodoc.de/uploads/info_section/article/4006/1778150788_6621_784d153f5a9d0de0ff4a47cc31cdb44b.png",
+          "https://cdn.autodoc.de/uploads/info_section/article/4006/1778150779_2622_80c27686f1c6513013cac8e2a4435a3d.png",
+          "https://cdn.autodoc.de/uploads/info_section/article/4006/1778150779_2654_79b5d7dc96630f7eca084e246a72a6c3.png",
+          "https://cdn.autodoc.de/uploads/info_section/article/4006/1778150798_302_a0b434c457f29815bd3770e036068209.png",
+          "https://www.autodoc.es/lazyload.php?width=202&height=24",
+          "https://www.autodoc.es/lazyload.php?width=302&height=205",
+          "https://www.autodoc.es/lazyload.php?width=73&height=32",
+          "https://www.autodoc.es/lazyload.php?width=24&height=24",
+          "https://www.autodoc.es/lazyload.php?width=147&height=40",
+          "https://www.autodoc.es/assets/common/js/subscribe-push-notifications.js",
+          "https://www.autodoc.es/assets/54eb94/js/vendor.js?id=22f6aba75b798010005c2a19c2c4960e",
+          "https://www.autodoc.es/assets/54eb94/js/app.js?id=1f148e4484db31335cbd263de42da026",
+          "https://www.autodoc.es/assets/common/js/genesys/update/extracted/new-configuration.js?v=9",
+          "https://www.autodoc.es/assets/54eb94/css/new-genesys-theme.css?v=9",
+          "https://www.autodoc.es/assets/common/js/genesys/update/extracted/new-widget-pre-cx-bus.js?v=11",
+          "https://www.autodoc.es/assets/common/js/genesys/chat-widget.js?v=1",
+          "https://www.autodoc.es/assets/common/js/genesys/update/cxbus.min.js?v=1",
+          "https://www.autodoc.es/securegtm/?id=",
+          "https://www.autodoc.es/assets/54eb94/images/icon-sprite-bw.svg",
+          "https://www.autodoc.es/assets/54eb94/images/icon-sprite-bw.svg?id=e67eb4133ff7b06d8f78d1c3e46c85f3",
+          "https://www.autodoc.es/assets/54eb94/images/icon-sprite-color.svg?id=d22325e465317a8027edf245b10131f9",
+          "https://www.autodoc.es/assets/54eb94/fonts/Inter-VariableFont_opsz_wght.ttf",
+          "https://www.autodoc.es/assets/54eb94/fonts/Montserrat-VariableFont_wght.ttf",
+          "https://www.autodoc.es/lazyload.php?width=735&height=385",
+          "https://www.autodoc.es/assets/54eb94/images/svg/star-icon-orange-outline.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/star-icon-orange.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/dangerous/dangerous-info.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/const_youtube-fill-bw.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/const_facebook-icon.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/const_instagram-icon.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/const_tiktok-icon.svg",
+          "https://www.autodoc.es/securegtm/uU3a-8SE3n3tAstlln_qqxsyN3wPcbKeOod_L6rIxFlzEvJu",
+          "https://www.autodoc.es/securegtm/gs/ccm/collect?rcb=11&frm=0&ae=g&en=page_view&dl=https%3A%2F%2Fwww.autodoc.es%2F&scrsrc=www.autodoc.es&rnd=391514491.1783681649&navt=n&npa=1&ep.ads_data_redaction=0&gdid=dNzQzZD&_tu=CA&gtm=45E92e6781v850280835za204zd850280835xea&gcs=G100&gcd=13q3q3q2q5l1&dma_cps=-&dma=1&tag_exp=115938466~115938468~118826210~118897920~118897930~119027224&apve=1&apvf=f&gap.gtb=1&apvc=1&tft=1783681648930&tfd=2016&fmt=8",
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20260515/4ef8a623mp6wck6r.jpg",
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20260702/49756e81mr3q5y8k.jpg",
+          "https://scdn.autodoc.de/catalog/categories/200x200/tyres_wheels.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10106.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10102.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10105.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10101.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10111.png",
+          "https://www.autodoc.es/assets/common/js/genesys/update/plugins/widgets-core.min.js",
+          "https://www.autodoc.es/p/static/kmtx.js?h=www.autodoc.es&p=%2F&c=1783681649515&cs=7125610229936097845&r=main",
+          "https://www.autodoc.es/securegtm/uU2C5sSG8DSKFdoKng_lpmtNJTkUNOzbe5Rmf6OZl1h8G9Tybg",
+          "https://www.autodoc.es/securegtm/uU2C5sSG8DSKEM4KlwzrrG1PJi9DeeSePosvcbjKhgN2F4Ckl4Go8m4",
+          "https://region1.google-analytics.com/g/collect?v=2&tid=G-ZSRB0C94FM&gtm=45g92e6781v869337977z8850280835za20kzb850280835zd850280835&_p=1783681648008&gcs=G100&gcd=13q3qPq2q5l1&npa=1&dma_cps=-&dma=1&ecid=1759670807&_eu=AAAAAGAC&_uip=%3A%3A&are=1&cid=349864381.1783681650&ec_mode=a&frm=0&pscdl=denied&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=es-es&ur=ES&gaf=2&_s=1&tag_exp=115938466~115938469~118826209~118897920~118897930~119027224&uid=&sid=1783681649&sct=1&seg=0&dl=https%3A%2F%2Fwww.autodoc.es%2F&dt=AUTODOC%20Espa%C3%B1a%20-%20tienda%20online%20de%20recambios%20coche%20con%20m%C3%A1s%20de%206%2C7%20millones%20de%20repuestos%20coches&_tu=CA&en=page_view&_fv=1&_nsi=1&_ss=1&gap.gtb=1&ep.cid=0&ep.timestamp=2026-07-10T11%3A07%3A28.882%2B00%3A00&ep.filter_value=&tfd=2845",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10110.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10150.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10435.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10116.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/10113.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/other.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/33000.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/30000.png",
+          "https://scdn.autodoc.de/catalog/categories/150x150/36000.png",
+          "https://www.autodoc.es/cdn-cgi/challenge-platform/scripts/jsd/main.js",
+          "https://www.autodoc.es/ajax/terms-cookies-content",
+          "https://www.autodoc.es/assets/54eb94/fonts/slick.woff",
+          "https://www.autodoc.es/cdn-cgi/challenge-platform/h/g/scripts/jsd/73f5d73b1f13/main.js?",
+          "https://www.autodoc.es/securegtm/ddm/activity/src=8369624;type=autod00;cat=all_s0;rcb=8;ord=452276038359;npa=1;u1=0;u6=ES;uaa=x86;uab=64;uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=denied;frm=0;_tu=KFA;gtm=45c92e6781v9181637640z8850280835za20kzb850280835zd850280835xea;gcs=G100;gcd=13q3qPq2q5l1;dma_cps=-;dma=1;dc_fmt=8;tag_exp=115938466~115938468~118395333~118826209~118897920~118897930~119027224;epver=2;gap.gtb=3;~oref=https%3A%2F%2Fwww.autodoc.es%2F?",
+          "https://www.autodoc.es/securegtm/ddm/activity/src=8369624;type=autod00;cat=all_s00;rcb=8;ord=1;num=6163275078246;npa=1;u1=0;u6=ES;uaa=x86;uab=64;uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=denied;frm=0;_tu=KJA;gtm=45c92e6781v9181637640z8850280835za20kzb850280835zd850280835xea;gcs=G100;gcd=13q3qPq2q5l1;dma_cps=-;dma=1;dc_fmt=8;tag_exp=115938466~115938468~118395333~118826209~118897920~118897930~119027224;epver=2;gap.gtb=3;~oref=https%3A%2F%2Fwww.autodoc.es%2F?",
+          "https://www.autodoc.es/securegtm/gs/ccm/collect?rcb=4&frm=0&ae=g&dl=https%3A%2F%2Fwww.autodoc.es%2F&scrsrc=www.autodoc.es&rnd=391514491.1783681649&navt=n&npa=1&ep.ads_data_redaction=0&_tu=CA&gtm=45892e6781v893618855z8850280835za20kzb850280835zd850280835xea&gcs=G100&gcd=13q3qPW2q5l1&dma_cps=-&dma=1&tag_exp=115938466~115938468~118826210~118897920~118897930~119027224&apve=1&apvf=f&gap.gtb=3&apvc=0&tids=AW-10830070455&tid=AW-10830070455&tft=1783681650709&tfd=3795&fmt=8",
+          "https://ade.googlesyndication.com/ddm/activity/src=8369624;dc_pre=CMfNtPn7x5UDFSpI9ggd_SUpVA;type=autod00;cat=all_s0;rcb=8;ord=452276038359;npa=1;u1=0;u6=ES;uaa=x86;uab=64;uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=denied;frm=0;_tu=KFA;gtm=45c92e6781v9181637640z8850280835za20kzb850280835zd850280835xea;gcs=G100;gcd=13q3qPq2q5l1;dma_cps=-;dma=1;dc_fmt=8;tag_exp=115938466~115938468~118395333~118826209~118897920~118897930~119027224;epver=2;gap.gtb=3;~oref=https%3A%2F%2Fwww.autodoc.es%2F?",
+          "https://ade.googlesyndication.com/ddm/activity/src=8369624;dc_pre=CLPWtPn7x5UDFZBJQQIdgyce1Q;type=autod00;cat=all_s00;rcb=8;ord=1;num=6163275078246;npa=1;u1=0;u6=ES;uaa=x86;uab=64;uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0;uamb=0;uam=;uap=Linux;uapv=;uaw=0;pscdl=denied;frm=0;_tu=KJA;gtm=45c92e6781v9181637640z8850280835za20kzb850280835zd850280835xea;gcs=G100;gcd=13q3qPq2q5l1;dma_cps=-;dma=1;dc_fmt=8;tag_exp=115938466~115938468~118395333~118826209~118897920~118897930~119027224;epver=2;gap.gtb=3;~oref=https%3A%2F%2Fwww.autodoc.es%2F?",
+          {
+            "type": "console.error",
+            "text": "The script resource is behind a redirect, which is disallowed."
+          },
+          "https://www.autodoc.es/assets/common/js/genesys/update/i18n/widgets-es.i18n.json",
+          "https://www.autodoc.es/p/g?t=AUTODOC%20Espa%C3%B1a%20-%20tienda%20online%20de%20recambios%20coche%20con%20m%C3%A1s%20de%206%2C7%20millones%20de%20repuestos%20coches&sw=1440&sh=900&pw=1440&ph=900&ww=1440&wh=900&bch=UTF-8&blng=es&dclt=5&dct=0&dit=2945&lest=0&leet=0&ld=0&type=it&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=0&cet=2026-07-10T11%3A07%3A30.895Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=in&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=0&cet=2026-07-10T11%3A07%3A31.135Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=in&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=0&cet=2026-07-10T11%3A07%3A31.151Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=in&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=0&cet=2026-07-10T11%3A07%3A31.160Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/cdn-cgi/challenge-platform/h/g/jsd/oneshot/73f5d73b1f13/0.8076957905777394:1783677629:ned5LoBk0W_j6GLn9FOzeKZp8AEFmOBAaUQi3sMdYwA/a18f1ad55afcec92",
+          "https://www.autodoc.es/p/g?type=sl&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=1&cet=2026-07-10T11%3A07%3A31.614Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=pe&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=1&cet=2026-07-10T11%3A07%3A31.616Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=pe&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=1&cet=2026-07-10T11%3A07%3A31.616Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=1&cet=2026-07-10T11%3A07%3A31.627Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/assets/54eb94/css/new-genesys-theme.css?v=9",
+          "https://www.autodoc.es/assets/common/js/genesys/update/i18n/survey.i18n.json",
+          "https://www.autodoc.es/assets/common/js/genesys/update/i18n/common.i18n.json",
+          "https://www.autodoc.es/assets/54eb94/images/svg/personal-manager-avatar2.svg",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/assets/common/js/genesys/update/plugins/webchatservice.min.js",
+          "https://www.autodoc.es/assets/common/js/genesys/update/plugins/webchat.min.js",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Refused to execute script from 'https://www.autodoc.es/assets/common/js/genesys/update/plugins/webchatservice.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Refused to execute script from 'https://www.autodoc.es/assets/common/js/genesys/update/plugins/webchat.min.js' because its MIME type ('text/html') is not executable, and strict MIME type checking is enabled."
+          },
+          "https://www.autodoc.es/securegtm/gs/ccm/collect?rcb=4&frm=0&ae=g&dl=https%3A%2F%2Fwww.autodoc.es%2F&scrsrc=www.autodoc.es&rnd=391514491.1783681649&navt=n&npa=1&ep.ecomm_pagetype=main&ep.dynx_pagetype=main&ep.ads_data_redaction=0&gdid=dNzQzZD&_tu=CA&gtm=45892e6781v893618855z8850280835za20kzb850280835zd850280835xea&gcs=G100&gcd=13q3qPW2q5l1&dma_cps=-&dma=1&tag_exp=115938466~115938468~118826210~118897920~118897930~119027224&apve=1&apvf=f&gap.gtb=3&gap.gtbd=2&apvc=0&tids=AW-10830070455&tid=AW-10830070455&tft=1783681652140&tfd=5227&fmt=8",
+          "https://www.autodoc.es/p/g?type=pe&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=1&cet=2026-07-10T11%3A07%3A32.153Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/securegtm/gs/ccm/collect?rcb=4&frm=0&ae=g&dl=https%3A%2F%2Fwww.autodoc.es%2F&scrsrc=www.autodoc.es&rnd=391514491.1783681649&navt=n&npa=1&ep.ecomm_pagetype=main&ep.dynx_pagetype=main&ep.ads_data_redaction=0&gdid=dNzQzZD&_tu=CA&gtm=45892e6781v893618855z8850280835za20kzb850280835zd850280835xea&gcs=G100&gcd=13q3qPW2q5l1&dma_cps=-&dma=1&tag_exp=115938466~115938468~118826210~118897920~118897930~119027224&apve=1&apvf=f&gap.gtb=3&gap.gtbd=2&apvc=0&tids=AW-10830070455&tid=AW-10830070455&tft=1783681652140&tfd=5227&fmt=3",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          "https://www.autodoc.es/p/g?type=pe&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.493Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=sl&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.494Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=pe&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.495Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.497Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.530Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.591Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.598Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.601Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=pe&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.716Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A32.741Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A33.198Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=2&cet=2026-07-10T11%3A07%3A33.210Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20260703/65b556b2mr4w8hl3.jpg",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=3&cet=2026-07-10T11%3A07%3A33.633Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=3&cet=2026-07-10T11%3A07%3A33.722Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=3&cet=2026-07-10T11%3A07%3A33.739Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=3&cet=2026-07-10T11%3A07%3A33.749Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=3&cet=2026-07-10T11%3A07%3A33.764Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=3&cet=2026-07-10T11%3A07%3A34.161Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=3&cet=2026-07-10T11%3A07%3A34.185Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20260703/5d41b0c0mr53jno6.jpg",
+          "https://region1.google-analytics.com/g/collect?v=2&tid=G-ZSRB0C94FM&gtm=45g92e6781v869337977z8850280835za20kzb850280835zd850280835&_p=1783681648008&gcs=G100&gcd=13q3qPW2q5l1&npa=1&dma_cps=-&dma=1&gdid=dNzQzZD&ecid=1759670807&_eu=IAAAAGAC&_uip=%3A%3A&are=1&cid=349864381.1783681650&frm=0&pscdl=denied&rcb=3&sr=1440x900&uaa=x86&uab=64&uafvl=HeadlessChrome%3B149.0.7827.55%7CChromium%3B149.0.7827.55%7CNot)A%253BBrand%3B24.0.0.0&uam=&uamb=0&uap=Linux&uapv=&uaw=0&ul=es-es&ur=ES&gaf=2&_s=2&tag_exp=115938466~115938469~118826209~118897920~118897930~119027224&uid=&sid=1783681649&sct=1&seg=0&dl=https%3A%2F%2Fwww.autodoc.es%2F&dt=AUTODOC%20Espa%C3%B1a%20-%20tienda%20online%20de%20recambios%20coche%20con%20m%C3%A1s%20de%206%2C7%20millones%20de%20repuestos%20coches&_tu=CA&tfd=10199",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=6&cet=2026-07-10T11%3A07%3A37.146Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=7&cet=2026-07-10T11%3A07%3A37.671Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=7&cet=2026-07-10T11%3A07%3A37.694Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20260703/1b948c34mr52de6v.png",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=10&cet=2026-07-10T11%3A07%3A40.669Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=10&cet=2026-07-10T11%3A07%3A41.197Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=10&cet=2026-07-10T11%3A07%3A41.237Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20251128/4048d481miiv09pt.jpg",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=13&cet=2026-07-10T11%3A07%3A44.186Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=14&cet=2026-07-10T11%3A07%3A44.711Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=14&cet=2026-07-10T11%3A07%3A44.738Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          "https://scdn.autodoc.de/makers/121.svg",
+          "https://scdn.autodoc.de/makers/16.svg",
+          "https://scdn.autodoc.de/makers/74.svg",
+          "https://scdn.autodoc.de/makers/104.svg",
+          "https://scdn.autodoc.de/makers/93.svg",
+          "https://scdn.autodoc.de/makers/5.svg",
+          "https://scdn.autodoc.de/makers/88.svg",
+          "https://scdn.autodoc.de/makers/21.svg",
+          "https://scdn.autodoc.de/makers/36.svg",
+          "https://scdn.autodoc.de/makers/84.svg",
+          "https://scdn.autodoc.de/makers/111.svg",
+          "https://scdn.autodoc.de/makers/80.svg",
+          "https://scdn.autodoc.de/makers/35.svg",
+          "https://scdn.autodoc.de/makers/183.svg",
+          "https://scdn.autodoc.de/makers/45.svg",
+          "https://scdn.autodoc.de/makers/184.svg",
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=16&cet=2026-07-10T11%3A07%3A47.197Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=sl&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=17&cet=2026-07-10T11%3A07%3A47.384Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20251124/21c1768mid7b1cl.jpg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/return-icon.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/wallet-icon-bw.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/app-phone-icon-bw.svg",
+          "https://www.autodoc.es/assets/54eb94/images/svg/youtube-fill-grey.svg",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=17&cet=2026-07-10T11%3A07%3A47.721Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=17&cet=2026-07-10T11%3A07%3A47.749Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://cdn.autodoc.de/uploads/construct_banner/banner-ui/20251124/4dd5cf10mid7prrz.jpg",
+          "https://www.autodoc.es/p/g?type=sl&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=17&cet=2026-07-10T11%3A07%3A47.941Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=17&cet=2026-07-10T11%3A07%3A47.964Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=18&cet=2026-07-10T11%3A07%3A49.191Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=vn&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=19&cet=2026-07-10T11%3A07%3A49.715Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          "https://www.autodoc.es/p/g?type=er&pi=b167517f-169d-4a07-b04e-0ce5241e094c&cs=7125610229936097845&cd=19&cet=2026-07-10T11%3A07%3A49.743Z&cto=0&v=v1.45.2-stable&ct=l&u=https%3A%2F%2Fwww.autodoc.es%2F&r=&rt=main",
+          {
+            "type": "console.error",
+            "text": "Failed to load resource: the server responded with a status of 403 ()"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          },
+          {
+            "type": "console.error",
+            "text": "%c%d font-size:0;color:transparent NaN"
+          }
+        ]
+      }
+    }
+  },
+  "clone": {
+    "1440x900": {
+      "viewport": {
+        "w": 1440,
+        "h": 900
+      },
+      "screenshot": "/app/clone-web/team-log/screens/eval_clone_1440x900.png",
+      "data": {
+        "layoutRects": {
+          "header": {
+            "x": 0,
+            "y": 0,
+            "w": 1440,
+            "h": 28
+          },
+          "subnav": {
+            "x": 0,
+            "y": 0,
+            "w": 1440,
+            "h": 676
+          },
+          "card": {
+            "x": 0,
+            "y": 0,
+            "w": 1440,
+            "h": 676
+          },
+          "banner": {
+            "x": 610,
+            "y": 256,
+            "w": 808,
+            "h": 400,
+            "tag": "DIV",
+            "cls": "slick-slider slick-initialized w-full h-[400px] relative ove"
+          },
+          "cta": {
+            "x": 483,
+            "y": 298,
+            "w": 87,
+            "h": 39,
+            "text": "Buscar"
+          },
+          "viewport": {
+            "w": 1440,
+            "h": 900
+          },
+          "docH": 900
+        },
+        "subnavList": {
+          "count": 10,
+          "items": [
+            {
+              "text": "Camión",
+              "active": false
+            },
+            {
+              "text": "Motocicleta",
+              "active": false
+            },
+            {
+              "text": "Neumáticos",
+              "active": false
+            },
+            {
+              "text": "Llantas",
+              "active": false
+            },
+            {
+              "text": "Herramientas",
+              "active": false
+            },
+            {
+              "text": "Limpieza y Cuidado",
+              "active": false
+            },
+            {
+              "text": "Accesorios para coches",
+              "active": false
+            },
+            {
+              "text": "Aceite de motor",
+              "active": false
+            },
+            {
+              "text": "Filtros",
+              "active": false
+            },
+            {
+              "text": "Frenos",
+              "active": false
+            }
+          ]
+        },
+        "tabsClickable": {
+          "count": 10,
+          "first": {
+            "tag": "A",
+            "cursor": "pointer",
+            "pointerEvents": "auto",
+            "href": "https://camiones.autodoc.es/"
+          }
+        },
+        "cascade": {
+          "make": {
+            "text": "1Elija una marca",
+            "disabled": false,
+            "ariaExpanded": "false"
+          },
+          "model": {
+            "text": "2Elija un modelo",
+            "disabled": true,
+            "ariaExpanded": "false"
+          },
+          "engine": {
+            "text": "3Elija un tipo de motor",
+            "disabled": true,
+            "ariaExpanded": "false"
+          }
+        },
+        "ctaStyles": {
+          "text": "Buscar",
+          "rect": {
+            "x": 40,
+            "y": 529,
+            "w": 531,
+            "h": 39
+          },
+          "bg": "rgb(156, 156, 156)",
+          "bgHex": "#9C9C9C",
+          "color": "rgb(255, 255, 255)",
+          "colorHex": "#FFFFFF",
+          "fontFamily": "Montserrat, Arial, sans-serif",
+          "fontSize": "13px",
+          "fontWeight": "600",
+          "borderRadius": "2px",
+          "padding": "0px",
+          "boxShadow": "none",
+          "opacity": "1"
+        },
+        "colorTokens": {
+          "bodyBg": "#FFFFFF",
+          "bodyColor": "#132530",
+          "headerBg": "#131C20",
+          "headerColor": "#F7F7F7",
+          "subnavBg": "#131C20",
+          "subnavText": "#F7F7F7",
+          "cardBg": "#000000",
+          "cardBorder": "0px solid rgb(19, 37, 48)",
+          "cardRadius": "0px",
+          "ctaBg": "#9C9C9C",
+          "ctaText": "#FFFFFF",
+          "badgeBg": "#0068D7",
+          "badgeText": "#FFFFFF",
+          "orangeBg": "#ED5C0E"
+        },
+        "dropdownPanel": {
+          "exists": false
+        },
+        "headerAssets": {
+          "logoPresent": false,
+          "logoSrc": null,
+          "logoRect": null,
+          "utilityLinksCount": 0,
+          "utilitySample": []
+        },
+        "carousel": {
+          "exists": true,
+          "slideCount": 9,
+          "dotCount": 10,
+          "activeIdx": 2,
+          "autoplay": null,
+          "autoplaySpeed": null,
+          "rect": {
+            "x": 610,
+            "y": 256,
+            "w": 808,
+            "h": 400
+          }
+        },
+        "hoverBase": {
+          "tab": {
+            "color": "rgb(247, 247, 247)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "borderColor": "rgb(247, 247, 247)"
+          },
+          "cta": {
+            "color": "rgb(255, 255, 255)",
+            "bg": "rgb(156, 156, 156)",
+            "boxShadow": "none",
+            "borderColor": "rgb(255, 255, 255)"
+          }
+        },
+        "orangeAccents": {
+          "count": 5,
+          "samples": [
+            {
+              "tag": "A",
+              "cls": "text-promo-orange font-semibold tracking",
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(237, 92, 14)"
+            },
+            {
+              "tag": "DIV",
+              "cls": "bg-promo-orange text-white h-[40px] flex",
+              "bg": "rgb(237, 92, 14)",
+              "color": "rgb(255, 255, 255)"
+            },
+            {
+              "tag": "SPAN",
+              "cls": "inline-flex items-center justify-center ",
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(237, 92, 14)"
+            },
+            {
+              "tag": "svg",
+              "cls": "[object SVGAnimatedString]",
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(237, 92, 14)"
+            }
+          ]
+        },
+        "consoleErrors": {
+          "count": 0,
+          "errors": []
+        },
+        "belowFold": {
+          "viewportH": 900,
+          "rootBottom": 676,
+          "rootHeight": 676,
+          "docHeight": 900,
+          "bleedCount": 0,
+          "bleedSample": [],
+          "suspicious": {
+            "losSuperventas": false,
+            "todasLasCategorias": false,
+            "todoParaSuCoche": false
+          }
+        },
+        "hoverPost": {
+          "tab": {
+            "color": "rgb(247, 247, 247)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "borderColor": "rgb(247, 247, 247)"
+          },
+          "cta": {
+            "color": "rgb(255, 255, 255)",
+            "bg": "rgb(156, 156, 156)",
+            "boxShadow": "none",
+            "borderColor": "rgb(255, 255, 255)"
+          }
+        },
+        "cascadeInteraction": {
+          "_error": "page.evaluate: TypeError: Cannot read properties of undefined (reading 'querySelectorAll')\n    at eval (eval at evaluate (:303:30), <anonymous>:3:39)\n    at eval (eval at evaluate (:303:30), <anonymous>:5:7)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:303:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+        },
+        "_net": []
+      }
+    },
+    "1920x1080": {
+      "viewport": {
+        "w": 1920,
+        "h": 1080
+      },
+      "screenshot": "/app/clone-web/team-log/screens/eval_clone_1920x1080.png",
+      "data": {
+        "layoutRects": {
+          "header": {
+            "x": 0,
+            "y": 0,
+            "w": 1920,
+            "h": 28
+          },
+          "subnav": {
+            "x": 0,
+            "y": 0,
+            "w": 1920,
+            "h": 676
+          },
+          "card": null,
+          "banner": {
+            "x": 850,
+            "y": 256,
+            "w": 808,
+            "h": 400,
+            "tag": "DIV",
+            "cls": "slick-slider slick-initialized w-full h-[400px] relative ove"
+          },
+          "cta": {
+            "x": 723,
+            "y": 298,
+            "w": 87,
+            "h": 39,
+            "text": "Buscar"
+          },
+          "viewport": {
+            "w": 1920,
+            "h": 1080
+          },
+          "docH": 1080
+        },
+        "subnavList": {
+          "count": 10,
+          "items": [
+            {
+              "text": "Camión",
+              "active": false
+            },
+            {
+              "text": "Motocicleta",
+              "active": false
+            },
+            {
+              "text": "Neumáticos",
+              "active": false
+            },
+            {
+              "text": "Llantas",
+              "active": false
+            },
+            {
+              "text": "Herramientas",
+              "active": false
+            },
+            {
+              "text": "Limpieza y Cuidado",
+              "active": false
+            },
+            {
+              "text": "Accesorios para coches",
+              "active": false
+            },
+            {
+              "text": "Aceite de motor",
+              "active": false
+            },
+            {
+              "text": "Filtros",
+              "active": false
+            },
+            {
+              "text": "Frenos",
+              "active": false
+            }
+          ]
+        },
+        "tabsClickable": {
+          "count": 10,
+          "first": {
+            "tag": "A",
+            "cursor": "pointer",
+            "pointerEvents": "auto",
+            "href": "https://camiones.autodoc.es/"
+          }
+        },
+        "cascade": {
+          "error": "card not found"
+        },
+        "ctaStyles": {
+          "error": "card not found"
+        },
+        "colorTokens": {
+          "bodyBg": "#FFFFFF",
+          "bodyColor": "#132530",
+          "headerBg": "#131C20",
+          "headerColor": "#F7F7F7",
+          "subnavBg": "#131C20",
+          "subnavText": "#F7F7F7",
+          "cardBg": null,
+          "cardBorder": null,
+          "cardRadius": null,
+          "ctaBg": null,
+          "ctaText": null,
+          "badgeBg": null,
+          "badgeText": null,
+          "orangeBg": "#ED5C0E"
+        },
+        "dropdownPanel": {
+          "error": "card not found"
+        },
+        "headerAssets": {
+          "logoPresent": false,
+          "logoSrc": null,
+          "logoRect": null,
+          "utilityLinksCount": 0,
+          "utilitySample": []
+        },
+        "carousel": {
+          "exists": true,
+          "slideCount": 9,
+          "dotCount": 10,
+          "activeIdx": 3,
+          "autoplay": null,
+          "autoplaySpeed": null,
+          "rect": {
+            "x": 850,
+            "y": 256,
+            "w": 808,
+            "h": 400
+          }
+        },
+        "hoverBase": {
+          "tab": {
+            "color": "rgb(247, 247, 247)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "borderColor": "rgb(247, 247, 247)"
+          },
+          "cta": null
+        },
+        "orangeAccents": {
+          "count": 5,
+          "samples": [
+            {
+              "tag": "A",
+              "cls": "text-promo-orange font-semibold tracking",
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(237, 92, 14)"
+            },
+            {
+              "tag": "DIV",
+              "cls": "bg-promo-orange text-white h-[40px] flex",
+              "bg": "rgb(237, 92, 14)",
+              "color": "rgb(255, 255, 255)"
+            },
+            {
+              "tag": "SPAN",
+              "cls": "inline-flex items-center justify-center ",
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(237, 92, 14)"
+            },
+            {
+              "tag": "svg",
+              "cls": "[object SVGAnimatedString]",
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(237, 92, 14)"
+            }
+          ]
+        },
+        "consoleErrors": {
+          "count": 0,
+          "errors": []
+        },
+        "belowFold": {
+          "viewportH": 1080,
+          "rootBottom": 676,
+          "rootHeight": 676,
+          "docHeight": 1080,
+          "bleedCount": 0,
+          "bleedSample": [],
+          "suspicious": {
+            "losSuperventas": false,
+            "todasLasCategorias": false,
+            "todoParaSuCoche": false
+          }
+        },
+        "hoverPost": {
+          "tab": {
+            "color": "rgb(247, 247, 247)",
+            "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.1)",
+            "boxShadow": "none",
+            "borderColor": "rgb(247, 247, 247)"
+          },
+          "cta": null
+        },
+        "cascadeInteraction": {
+          "_error": "page.evaluate: TypeError: Cannot read properties of undefined (reading 'querySelectorAll')\n    at eval (eval at evaluate (:303:30), <anonymous>:3:39)\n    at eval (eval at evaluate (:303:30), <anonymous>:7:7)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:303:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+        },
+        "_net": []
+      }
+    },
+    "1280x800": {
+      "viewport": {
+        "w": 1280,
+        "h": 800
+      },
+      "screenshot": "/app/clone-web/team-log/screens/eval_clone_1280x800.png",
+      "data": {
+        "layoutRects": {
+          "header": {
+            "x": 0,
+            "y": 0,
+            "w": 1280,
+            "h": 28
+          },
+          "subnav": {
+            "x": 0,
+            "y": 0,
+            "w": 1280,
+            "h": 676
+          },
+          "card": null,
+          "banner": {
+            "x": 605,
+            "y": 256,
+            "w": 658,
+            "h": 400,
+            "tag": "DIV",
+            "cls": "slick-slider slick-initialized w-full h-[400px] relative ove"
+          },
+          "cta": {
+            "x": 478,
+            "y": 298,
+            "w": 87,
+            "h": 39,
+            "text": "Buscar"
+          },
+          "viewport": {
+            "w": 1280,
+            "h": 800
+          },
+          "docH": 800
+        },
+        "subnavList": {
+          "count": 10,
+          "items": [
+            {
+              "text": "Camión",
+              "active": false
+            },
+            {
+              "text": "Motocicleta",
+              "active": false
+            },
+            {
+              "text": "Neumáticos",
+              "active": false
+            },
+            {
+              "text": "Llantas",
+              "active": false
+            },
+            {
+              "text": "Herramientas",
+              "active": false
+            },
+            {
+              "text": "Limpieza y Cuidado",
+              "active": false
+            },
+            {
+              "text": "Accesorios para coches",
+              "active": false
+            },
+            {
+              "text": "Aceite de motor",
+              "active": false
+            },
+            {
+              "text": "Filtros",
+              "active": false
+            },
+            {
+              "text": "Frenos",
+              "active": false
+            }
+          ]
+        },
+        "tabsClickable": {
+          "count": 10,
+          "first": {
+            "tag": "A",
+            "cursor": "pointer",
+            "pointerEvents": "auto",
+            "href": "https://camiones.autodoc.es/"
+          }
+        },
+        "cascade": {
+          "error": "card not found"
+        },
+        "ctaStyles": {
+          "error": "card not found"
+        },
+        "colorTokens": {
+          "bodyBg": "#FFFFFF",
+          "bodyColor": "#132530",
+          "headerBg": "#131C20",
+          "headerColor": "#F7F7F7",
+          "subnavBg": "#131C20",
+          "subnavText": "#F7F7F7",
+          "cardBg": null,
+          "cardBorder": null,
+          "cardRadius": null,
+          "ctaBg": null,
+          "ctaText": null,
+          "badgeBg": null,
+          "badgeText": null,
+          "orangeBg": "#ED5C0E"
+        },
+        "dropdownPanel": {
+          "error": "card not found"
+        },
+        "headerAssets": {
+          "logoPresent": false,
+          "logoSrc": null,
+          "logoRect": null,
+          "utilityLinksCount": 0,
+          "utilitySample": []
+        },
+        "carousel": {
+          "exists": true,
+          "slideCount": 9,
+          "dotCount": 10,
+          "activeIdx": 3,
+          "autoplay": null,
+          "autoplaySpeed": null,
+          "rect": {
+            "x": 605,
+            "y": 256,
+            "w": 658,
+            "h": 400
+          }
+        },
+        "hoverBase": {
+          "tab": {
+            "color": "rgb(247, 247, 247)",
+            "bg": "rgba(0, 0, 0, 0)",
+            "boxShadow": "none",
+            "borderColor": "rgb(247, 247, 247)"
+          },
+          "cta": null
+        },
+        "orangeAccents": {
+          "count": 5,
+          "samples": [
+            {
+              "tag": "A",
+              "cls": "text-promo-orange font-semibold tracking",
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(237, 92, 14)"
+            },
+            {
+              "tag": "DIV",
+              "cls": "bg-promo-orange text-white h-[40px] flex",
+              "bg": "rgb(237, 92, 14)",
+              "color": "rgb(255, 255, 255)"
+            },
+            {
+              "tag": "SPAN",
+              "cls": "inline-flex items-center justify-center ",
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(237, 92, 14)"
+            },
+            {
+              "tag": "svg",
+              "cls": "[object SVGAnimatedString]",
+              "bg": "rgba(0, 0, 0, 0)",
+              "color": "rgb(237, 92, 14)"
+            }
+          ]
+        },
+        "consoleErrors": {
+          "count": 0,
+          "errors": []
+        },
+        "belowFold": {
+          "viewportH": 800,
+          "rootBottom": 676,
+          "rootHeight": 676,
+          "docHeight": 800,
+          "bleedCount": 0,
+          "bleedSample": [],
+          "suspicious": {
+            "losSuperventas": false,
+            "todasLasCategorias": false,
+            "todoParaSuCoche": false
+          }
+        },
+        "hoverPost": {
+          "tab": {
+            "color": "rgb(247, 247, 247)",
+            "bg": "oklab(0.999994 0.0000455678 0.0000200868 / 0.1)",
+            "boxShadow": "none",
+            "borderColor": "rgb(247, 247, 247)"
+          },
+          "cta": null
+        },
+        "cascadeInteraction": {
+          "_error": "page.evaluate: TypeError: Cannot read properties of undefined (reading 'querySelectorAll')\n    at eval (eval at evaluate (:303:30), <anonymous>:3:39)\n    at eval (eval at evaluate (:303:30), <anonymous>:7:7)\n    at eval (<anonymous>)\n    at UtilityScript.evaluate (<anonymous>:303:30)\n    at UtilityScript.<anonymous> (<anonymous>:1:44)"
+        },
+        "_net": []
+      }
+    }
+  }
+}

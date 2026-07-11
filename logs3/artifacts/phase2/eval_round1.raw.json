@@ -1,0 +1,419 @@
+{
+  "httpStatus": 200,
+  "ac1": {
+    "status": 200,
+    "body": {
+      "status": "success",
+      "metadata": {
+        "requested_make": "BMW",
+        "requested_model": "BMW 111",
+        "matched_records": 1,
+        "flagged": false
+      },
+      "reliability_scores": {
+        "safety_rating": "Good",
+        "comfort_rating": "Excellent",
+        "overall_vibe_score": 67
+      },
+      "financial_projections": {
+        "annual_fuel_cost": 1426.5,
+        "annual_maintenance_cost": 500,
+        "total_5_year_cost": 9632.5
+      },
+      "radar_data": {
+        "safety": 60,
+        "maintenance": 65,
+        "boot_capacity": 60,
+        "comfort": 91.5
+      },
+      "yearly_breakdown": [
+        {
+          "year": 1,
+          "cumulative_fuel": 1426.5,
+          "cumulative_maintenance": 500
+        },
+        {
+          "year": 2,
+          "cumulative_fuel": 2853,
+          "cumulative_maintenance": 1000
+        },
+        {
+          "year": 3,
+          "cumulative_fuel": 4279.5,
+          "cumulative_maintenance": 1500
+        },
+        {
+          "year": 4,
+          "cumulative_fuel": 5706,
+          "cumulative_maintenance": 2000
+        },
+        {
+          "year": 5,
+          "cumulative_fuel": 7132.5,
+          "cumulative_maintenance": 2500
+        }
+      ]
+    },
+    "missing": [],
+    "typeErrors": []
+  },
+  "ac2": {
+    "emptyMakeStatus": 422,
+    "emptyMakeBody": "{\"detail\":\"Make parameter is required and must be non-empty.\"}",
+    "note": "main.py L71-78: rejects fuel<=0 OR maint<=0 OR total<=0 with 422. global_median_fuel=8.0, global_median_maint=500. <=0 unreachable in normal flow (sampled 20 brands)."
+  },
+  "ac3": {
+    "count": 20,
+    "samples": [
+      {
+        "brand": "Alfa Romeo",
+        "vibe": 66
+      },
+      {
+        "brand": "Aston Martin",
+        "vibe": 70
+      },
+      {
+        "brand": "Audi",
+        "vibe": 68
+      },
+      {
+        "brand": "BMW",
+        "vibe": 54
+      },
+      {
+        "brand": "BYD",
+        "vibe": 74
+      },
+      {
+        "brand": "Bentley",
+        "vibe": 74
+      },
+      {
+        "brand": "Citroën",
+        "vibe": 63
+      },
+      {
+        "brand": "Cupra",
+        "vibe": 63
+      },
+      {
+        "brand": "DS Automobiles",
+        "vibe": 60
+      },
+      {
+        "brand": "Dacia",
+        "vibe": 47
+      },
+      {
+        "brand": "Ferrari",
+        "vibe": 73
+      },
+      {
+        "brand": "Fiat",
+        "vibe": 61
+      },
+      {
+        "brand": "Ford",
+        "vibe": 68
+      },
+      {
+        "brand": "Honda",
+        "vibe": 56
+      },
+      {
+        "brand": "Hyundai",
+        "vibe": 80
+      },
+      {
+        "brand": "Jaguar",
+        "vibe": 76
+      },
+      {
+        "brand": "Kia",
+        "vibe": 62
+      },
+      {
+        "brand": "Koenigsegg",
+        "vibe": 59
+      },
+      {
+        "brand": "Lamborghini",
+        "vibe": 64
+      },
+      {
+        "brand": "Lancia",
+        "vibe": 69
+      }
+    ],
+    "min": 47,
+    "max": 80,
+    "allInRange": true
+  },
+  "ac4": {
+    "note": "load_data.py L273-276: if total_5_year_cost > 150000: total_5_year_cost = 150000.0; flagged = True. Pydantic Metadata has flagged: bool = False. Real-data max ~14.7k so cap never fires.",
+    "codeRef": "load_data.py L273-276"
+  },
+  "ac5": {
+    "status": 200,
+    "body": {
+      "status": "success",
+      "metadata": {
+        "requested_make": "DoesNotExist",
+        "requested_model": "Foo",
+        "matched_records": 0,
+        "flagged": false
+      },
+      "reliability_scores": {
+        "safety_rating": "Average",
+        "comfort_rating": "Good",
+        "overall_vibe_score": 54
+      },
+      "financial_projections": {
+        "annual_fuel_cost": 1224,
+        "annual_maintenance_cost": 500,
+        "total_5_year_cost": 8620
+      },
+      "radar_data": {
+        "safety": 60,
+        "maintenance": 65,
+        "boot_capacity": 60,
+        "comfort": 62.8
+      },
+      "yearly_breakdown": [
+        {
+          "year": 1,
+          "cumulative_fuel": 1224,
+          "cumulative_maintenance": 500
+        },
+        {
+          "year": 2,
+          "cumulative_fuel": 2448,
+          "cumulative_maintenance": 1000
+        },
+        {
+          "year": 3,
+          "cumulative_fuel": 3672,
+          "cumulative_maintenance": 1500
+        },
+        {
+          "year": 4,
+          "cumulative_fuel": 4896,
+          "cumulative_maintenance": 2000
+        },
+        {
+          "year": 5,
+          "cumulative_fuel": 6120,
+          "cumulative_maintenance": 2500
+        }
+      ]
+    }
+  },
+  "ac6": {
+    "annualFuel": 1426.5,
+    "annualMaint": 500,
+    "apiTotal": 9632.5,
+    "expectedFromFormula": 9632.5,
+    "formulaMatch": true
+  },
+  "ac7": {
+    "identical": true,
+    "len": 774
+  },
+  "ac8": {
+    "brandsCount": 46,
+    "brandsSample": [
+      "Alfa Romeo",
+      "Aston Martin",
+      "Audi"
+    ],
+    "bmwModelsCount": 215,
+    "bmwModelsSample": [
+      "BMW E8 Pro",
+      "BMW FF-8",
+      "BMW Z99"
+    ],
+    "firstModel": "BMW E8 Pro",
+    "enginesForFirstModel": [
+      "Petrol+Electric"
+    ]
+  },
+  "ac9": {
+    "bodyBg": "rgb(34, 37, 42)",
+    "bodyColor": "rgb(255, 255, 255)",
+    "title": "AUTODOC España — Evaluación de Costes de Vehículos",
+    "selectorExists": true,
+    "dashboardExists": true,
+    "chartCanvases": 2
+  },
+  "ac10": {
+    "selectorRect": {
+      "x": 0,
+      "y": 0,
+      "w": 1440,
+      "h": 349,
+      "top": 0,
+      "bottom": 349
+    },
+    "dashboardRect": {
+      "x": 270,
+      "y": 389,
+      "w": 900,
+      "h": 80,
+      "top": 389,
+      "bottom": 469
+    },
+    "dashboardBelow": true,
+    "dashboardBg": "rgb(27, 29, 34)",
+    "dashboardBgHex": "#1B1D22",
+    "snippet": "{\n  \"passed\": true,\n  \"anomalies\": []\n}"
+  },
+  "ac11": {
+    "computedBg": "rgb(27, 29, 34)",
+    "computedBgHex": "#1B1D22",
+    "computedColor": "rgb(255, 255, 255)",
+    "borderColor": "rgb(51, 65, 85)",
+    "vars": {
+      "darkBg": "#22252a",
+      "cardBg": "#1b1d22",
+      "brandYellow": "#ffd800",
+      "brandOrange": "#ff8a00",
+      "textMain": "#ffffff",
+      "textMuted": "#94a3b8",
+      "borderGray": "#334155"
+    },
+    "isWhite": false
+  },
+  "ac12": {
+    "firstModel": {
+      "value": "BMW E8 Pro",
+      "label": "BMW E8 Pro"
+    },
+    "firstEngine": {
+      "value": "Petrol+Electric",
+      "label": "Petrol+Electric"
+    },
+    "apiCallsBefore": 0,
+    "apiCallsAfter": 1,
+    "apiFired": true,
+    "canvases": [
+      {
+        "id": "chart-cost",
+        "w": 371,
+        "h": 185,
+        "nonZeroPixels": 22131
+      },
+      {
+        "id": "chart-radar",
+        "w": 371,
+        "h": 280,
+        "nonZeroPixels": 10183
+      }
+    ],
+    "chartCfg": {
+      "cost": {
+        "type": "bar",
+        "datasets": [
+          {
+            "label": "Combustible",
+            "backgroundColor": "#ffd800",
+            "borderColor": "#ffd800"
+          },
+          {
+            "label": "Mantenimiento",
+            "backgroundColor": "#ff8a00",
+            "borderColor": "#ff8a00"
+          }
+        ],
+        "labels": [
+          "Año 1",
+          "Año 2",
+          "Año 3",
+          "Año 4",
+          "Año 5"
+        ],
+        "scales": {
+          "x": {
+            "gridColor": "#334155",
+            "ticksColor": "#94a3b8",
+            "stacked": true
+          },
+          "y": {
+            "gridColor": "#334155",
+            "ticksColor": "#94a3b8",
+            "stacked": true
+          }
+        }
+      },
+      "radar": {
+        "type": "radar",
+        "datasets": [
+          {
+            "label": "BMW",
+            "backgroundColor": "rgba(255, 216, 0, 0.2)",
+            "borderColor": "#ffd800"
+          }
+        ],
+        "labels": [
+          "Seguridad",
+          "Mantenimiento",
+          "Maletero",
+          "Confort"
+        ],
+        "scales": {
+          "r": {
+            "gridColor": "#334155",
+            "ticksColor": "#94a3b8",
+            "pointLabelsColor": "#ffffff",
+            "max": 100
+          }
+        }
+      }
+    }
+  },
+  "ac14": {
+    "failedRequests": [],
+    "consoleErrors": [],
+    "assetStatuses": {
+      "/assets/logo-light.svg": 200,
+      "/assets/fonts/Inter-VariableFont_opsz_wght.ttf": 200,
+      "/assets/fonts/Montserrat-VariableFont_wght.ttf": 200,
+      "/assets/fonts/slick.woff": 200,
+      "/static/styles.css": 200,
+      "/static/app.js": 200
+    },
+    "widths": {
+      "scrollW": 1440,
+      "innerW": 1440,
+      "scrollH": 977
+    },
+    "bgs": {
+      "body": "#22252A",
+      "selector": "#22252A",
+      "dashboard": "#1B1D22"
+    }
+  },
+  "ac15": {
+    "scrollW": 1280,
+    "innerW": 1280,
+    "noOverflow": true
+  },
+  "apiCalls": [
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8000/api/brands"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8000/api/models?brand=BMW"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8000/api/engines?brand=BMW&model=BMW%20E8%20Pro"
+    },
+    {
+      "method": "GET",
+      "url": "http://127.0.0.1:8000/api/evaluate?make=BMW&model=BMW%20E8%20Pro&engine=Petrol%2BElectric"
+    }
+  ]
+}

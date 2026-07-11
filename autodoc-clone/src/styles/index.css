@@ -89,6 +89,10 @@ html, body {
   width: 24px; border-radius: 4px;
 }
 
+/* Hide scrollbar for sub-nav horizontal scroll */
+.scrollbar-hide::-webkit-scrollbar { display: none; }
+.scrollbar-hide { -ms-overflow-style: none; scrollbar-width: none; }
+
 /* Slide-in transition matching slick cssEase: ease (300ms speed) */
 .slick-slide-enter { opacity: 0.0; }
 .slick-slide-active { opacity: 1.0; transition: opacity 300ms ease; }

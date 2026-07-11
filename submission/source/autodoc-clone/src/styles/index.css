@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+@theme {
+  --color-page-bg: #ffffff;
+  --color-header-bg: #131c20;
+  --color-header-text: #f7f7f7;
+  --color-promo-orange: #ed5c0e;
+  --color-cta-blue: #0068d7;
+  --color-cta-blue-hover: #0074f1;
+  --color-body-text: #132530;
+  --color-gray-muted: #9c9c9c;
+  --color-gray-line: #acb0b1;
+  --color-card-bg: #f9fafb;
+  --color-border-light: #c4d0d8;
+  --color-disabled: #c4d0d8;
+  --color-step-bg: #d6d9dc;
+
+  --font-sans: "Inter", Arial, sans-serif;
+  --font-cta: "Montserrat", Arial, sans-serif;
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/Inter-VariableFont_opsz_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: swap;
+  src: url("/fonts/Montserrat-VariableFont_wght.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "slick";
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+  src: url("/fonts/slick.woff") format("woff");
+}
+
+html, body {
+  font-family: var(--font-sans);
+  font-size: 13px;
+  line-height: 16px;
+  color: var(--color-body-text);
+  background: var(--color-page-bg);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* { box-sizing: border-box; }
+
+/* Slick-style hero carousel */
+.slick-slider { position: relative; display: block; box-sizing: border-box; user-select: none; touch-action: pan-y; }
+.slick-list { position: relative; display: block; overflow: hidden; margin: 0; padding: 0; }
+.slick-track { position: relative; top: 0; left: 0; display: block; }
+.slick-slide { display: none; float: left; height: 100%; min-height: 1px; }
+.slick-slide img { display: block; width: 100%; height: auto; }
+.slick-initialized .slick-slide { display: block; }
+.slick-arrow {
+  position: absolute; top: 50%; transform: translateY(-50%);
+  width: 36px; height: 36px; background: rgba(255,255,255,0.9);
+  border: 1px solid var(--color-border-light); border-radius: 2px;
+  display: flex; align-items: center; justify-content: center;
+  cursor: pointer; z-index: 5; color: var(--color-body-text);
+  font-size: 0;
+  transition: background 0.15s ease;
+}
+.slick-arrow:hover { background: #ffffff; }
+.slick-arrow.slick-prev { left: 12px; }
+.slick-arrow.slick-next { right: 12px; }
+.slick-dots {
+  position: absolute; bottom: 14px; left: 50%; transform: translateX(-50%);
+  display: flex; gap: 8px; z-index: 5; list-style: none; padding: 0; margin: 0;
+}
+.slick-dots li {
+  width: 12px; height: 12px; border-radius: 50%;
+  background: rgba(255,255,255,0.5); cursor: pointer;
+  transition: background 0.15s ease;
+}
+.slick-dots li button { display: none; }
+.slick-dots li.slick-active {
+  background: var(--color-body-text);
+  width: 24px; border-radius: 4px;
+}
+
+/* Slide-in transition matching slick cssEase: ease (300ms speed) */
+.slick-slide-enter { opacity: 0.0; }
+.slick-slide-active { opacity: 1.0; transition: opacity 300ms ease; }

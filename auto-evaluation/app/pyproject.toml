@@ -1,0 +1,20 @@
+[project]
+name = "vibe-auto-cost"
+version = "2.0.0"
+requires-python = ">=3.11"
+
+[tool.ruff]
+target-version = "py311"
+line-length = 120
+
+[tool.ruff.lint]
+select = ["E", "F", "W", "I"]
+ignore = ["E501", "I001"]  # line length handled softly; I001 false-positives from sys.path manipulation
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+warn_unused_configs = true
+
+[tool.pytest.ini_options]
+testpaths = ["backend"]

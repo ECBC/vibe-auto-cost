@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AUTODOC España — Evaluación de Costes de Vehículos</title>
+  <link rel="icon" type="image/svg+xml" href="/assets/logo-light.svg">
+  <link rel="stylesheet" href="/static/styles.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js" integrity="sha384-e6nUZLBkQ86NJ6TVVKAeSaK8jWa3NhkYWZFomE39AvDbQWeie9PlQqM3pmYW5d1g" crossorigin="anonymous"></script>
+</head>
+<body>
+
+  <!-- ═══════════════════ SELECTOR (top) ═══════════════════ -->
+  <section id="car-selection-container">
+    <div class="header-bar">
+      <img src="/assets/logo-light.svg" alt="AUTODOC" class="logo">
+      <span class="tagline">Tienda online de recambios coche</span>
+    </div>
+
+    <div class="selector-form">
+      <h2>Evaluación de Costes — 5 Años</h2>
+      <div class="form-row">
+        <div class="form-group">
+          <label for="select-make">Marca</label>
+          <select id="select-make">
+            <option value="">Seleccionar marca...</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="select-model">Modelo</label>
+          <select id="select-model" disabled>
+            <option value="">Seleccionar modelo...</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="select-engine">Motor</label>
+          <select id="select-engine" disabled>
+            <option value="">Seleccionar motor...</option>
+          </select>
+        </div>
+      </div>
+      <button class="btn-evaluate" id="btn-evaluate" disabled>Buscar</button>
+    </div>
+  </section>
+
+  <!-- ═══════════════════ DASHBOARD (below selector) ═══════════════════ -->
+  <div id="aria-live-region" aria-live="polite" aria-atomic="true" class="sr-only"></div>
+
+  <section id="evaluation-dashboard-root" class="collapsed">
+    <div class="dashboard-placeholder" id="dashboard-placeholder">
+      Esperando selección de vehículo...
+    </div>
+    <div id="dashboard-content" style="display:none;">
+      <h3 class="dashboard-title" id="dashboard-title"></h3>
+      <div class="scores-row">
+        <div class="score-card">
+          <div class="label">Coste Total 5 Años</div>
+          <div class="value highlight" id="val-total-cost">—</div>
+        </div>
+        <div class="score-card">
+          <div class="label">Seguridad</div>
+          <div class="value" id="val-safety">—</div>
+        </div>
+        <div class="score-card">
+          <div class="label">Confort</div>
+          <div class="value" id="val-comfort">—</div>
+        </div>
+        <div class="score-card">
+          <div class="label">Vibe Score</div>
+          <div class="value highlight" id="val-vibe">—</div>
+        </div>
+      </div>
+      <div class="charts-row">
+        <div class="chart-container">
+          <h3>Costes Acumulados — 5 Años</h3>
+          <canvas id="chart-cost"></canvas>
+        </div>
+        <div class="chart-container">
+          <h3>Radar de Fiabilidad</h3>
+          <canvas id="chart-radar"></canvas>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>

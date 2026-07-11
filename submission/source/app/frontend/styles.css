@@ -1,0 +1,260 @@
+/* Vibe-Auto-Cost — Dark Dashboard Tokens (visual_architecture §1) */
+:root {
+  --autodoc-dark-bg: #22252a;
+  --autodoc-card-bg: #1b1d22;
+  --autodoc-brand-yellow: #ffd800;
+  --autodoc-brand-orange: #ff8a00;
+  --autodoc-text-main: #ffffff;
+  --autodoc-text-muted: #94a3b8;
+  --autodoc-border-gray: #334155;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('/assets/fonts/Inter-VariableFont_opsz_wght.ttf') format('truetype');
+  font-weight: 100 900;
+}
+@font-face {
+  font-family: 'Montserrat';
+  src: url('/assets/fonts/Montserrat-VariableFont_wght.ttf') format('truetype');
+  font-weight: 100 900;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: var(--autodoc-dark-bg);
+  color: var(--autodoc-text-main);
+  min-height: 100vh;
+}
+
+/* --- Selector Section (top) --- */
+#car-selection-container {
+  background-color: var(--autodoc-dark-bg);
+  padding: 0;
+}
+
+.header-bar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 16px 32px;
+  border-bottom: 1px solid var(--autodoc-border-gray);
+}
+
+.header-bar img.logo {
+  height: 32px;
+}
+
+.header-bar .tagline {
+  color: var(--autodoc-text-muted);
+  font-size: 14px;
+}
+
+.selector-form {
+  max-width: 900px;
+  margin: 40px auto;
+  padding: 32px;
+  background-color: var(--autodoc-card-bg);
+  border-radius: 12px;
+  border: 1px solid var(--autodoc-border-gray);
+}
+
+.selector-form h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  margin-bottom: 24px;
+  color: var(--autodoc-brand-yellow);
+}
+
+.form-row {
+  display: flex;
+  gap: 16px;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  flex: 1;
+  min-width: 180px;
+}
+
+.form-group label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 13px;
+  color: var(--autodoc-text-muted);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.form-group select {
+  width: 100%;
+  padding: 10px 14px;
+  background-color: var(--autodoc-dark-bg);
+  color: var(--autodoc-text-main);
+  border: 1px solid var(--autodoc-border-gray);
+  border-radius: 4px;
+  font-size: 14px;
+  appearance: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='12' viewBox='0 0 12 12'%3E%3Cpath fill='%2394a3b8' d='M6 8L1 3h10z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 12px center;
+}
+
+.form-group select:focus {
+  outline: 2px solid var(--autodoc-brand-yellow);
+  outline-offset: -1px;
+  border-color: var(--autodoc-brand-yellow);
+}
+
+.form-group select:hover {
+  border-color: var(--autodoc-brand-orange);
+}
+
+.btn-evaluate {
+  display: block;
+  width: 100%;
+  max-width: 280px;
+  margin: 0 auto;
+  padding: 14px 32px;
+  background-color: var(--autodoc-brand-yellow);
+  color: #1b1d22;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.btn-evaluate:hover {
+  background-color: var(--autodoc-brand-orange);
+  color: #ffffff;
+}
+
+.btn-evaluate:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
+/* --- Dashboard Section (below selector) --- */
+#evaluation-dashboard-root {
+  background-color: var(--autodoc-card-bg);
+  max-width: 900px;
+  margin: 0 auto 40px;
+  padding: 32px;
+  border-radius: 12px;
+  border: 1px solid var(--autodoc-border-gray);
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out, opacity 0.4s ease-in-out;
+}
+
+#evaluation-dashboard-root.collapsed {
+  max-height: 80px;
+  opacity: 0.7;
+}
+
+#evaluation-dashboard-root.expanded {
+  max-height: 2000px;
+  opacity: 1;
+}
+
+.dashboard-placeholder {
+  text-align: center;
+  padding: 20px;
+  color: var(--autodoc-text-muted);
+  font-size: 15px;
+}
+
+.dashboard-title {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: var(--autodoc-brand-yellow);
+  margin-bottom: 16px;
+}
+
+.scores-row {
+  display: flex;
+  gap: 16px;
+  margin-bottom: 24px;
+  flex-wrap: wrap;
+}
+
+.score-card {
+  flex: 1;
+  min-width: 140px;
+  background-color: var(--autodoc-dark-bg);
+  border: 1px solid var(--autodoc-border-gray);
+  border-radius: 8px;
+  padding: 16px;
+  text-align: center;
+  transition: all 0.2s ease-in-out;
+}
+
+.score-card:hover {
+  border-color: var(--autodoc-brand-orange);
+}
+
+.score-card .label {
+  font-size: 11px;
+  color: var(--autodoc-text-muted);
+  text-transform: uppercase;
+  margin-bottom: 6px;
+}
+
+.score-card .value {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--autodoc-text-main);
+}
+
+.score-card .value.highlight {
+  color: var(--autodoc-brand-yellow);
+}
+
+.charts-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 24px;
+  margin-top: 24px;
+}
+
+.chart-container {
+  background-color: var(--autodoc-dark-bg);
+  border: 1px solid var(--autodoc-border-gray);
+  border-radius: 8px;
+  padding: 16px;
+}
+
+.chart-container h3 {
+  font-size: 13px;
+  color: var(--autodoc-text-muted);
+  text-transform: uppercase;
+  margin-bottom: 12px;
+  letter-spacing: 0.5px;
+}
+
+.chart-container canvas {
+  width: 100% !important;
+  max-height: 280px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .charts-row { grid-template-columns: 1fr; }
+  .form-row { flex-direction: column; }
+  .selector-form, #evaluation-dashboard-root { margin: 20px 16px; padding: 20px; }
+}

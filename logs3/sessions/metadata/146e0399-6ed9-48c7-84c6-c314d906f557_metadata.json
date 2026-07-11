@@ -1,0 +1,12 @@
+{
+  "conversation_id": "146e0399-6ed9-48c7-84c6-c314d906f557",
+  "created_at": "2026-07-10T09:48:31.654152",
+  "last_accessed": "2026-07-10T09:48:31.654152",
+  "last_user_message": "",
+  "total_messages": 0,
+  "total_turns": 0,
+  "project_path": "/app/clone-web",
+  "user_id": "e92b4e38-ffaa-4823-a9cc-595a3094945e",
+  "platform": "Linux",
+  "version": "1.4.5"
+}
